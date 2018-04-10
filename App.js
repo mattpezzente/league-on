@@ -1,23 +1,26 @@
 import React from 'react';
-import { StyleSheet, Text, View } from 'react-native';
+import { StyleSheet, Text, View, NavigatorIOS } from 'react-native';
+
+import Join from './Join';
+import Recruit from './Recruit';
+import Manage from './Manage';
+import Profile from './Profile';
 
 export default class App extends React.Component {
+  constructor(props) {
+    super(props);
+  }
+
   render() {
     return (
-      <View style={styles.container}>
-        <Text>Open up App.js to start working on your app!</Text>
-        <Text>Changes you make will automatically reload.</Text>
-        <Text>Shake your phone to open the developer menu.</Text>
-      </View>
+      <NavigatorIOS
+        initialRoute={{
+          component: Join,
+          title: 'Recruit',
+          passProps: {index: 1},
+        }}
+        style={{flex: 1}}
+      />
     );
   }
 }
-
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    backgroundColor: '#fff',
-    alignItems: 'center',
-    justifyContent: 'center',
-  },
-});
