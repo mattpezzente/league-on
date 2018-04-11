@@ -26,7 +26,7 @@ export default class Join extends React.Component {
 
   render() {
     return (
-      <View>
+      <View style={{backgroundColor: 'blue', flex: 2}}>
         <Text>Current Scene: {this.props.title}</Text>
         <Button
           onPress={this._onForward}
