@@ -6,12 +6,21 @@ export const dimensions = {
 }
   
 export const colors  = {
-  primary: '#226B74',
+  primary: '#1D1D1D',
   secondary: '#254B5A',
-  tertiary: '#5DA6A7'
+  tertiary: '#C8AA6E',
+  font: '#ffffff',
+  accent: '#2662B2'
 }
 
 export const padding = {
+  sm: 10,
+  md: 20,
+  lg: 30,
+  xl: 40
+}
+
+export const margin = {
   sm: 10,
   md: 20,
   lg: 30,
@@ -30,7 +39,7 @@ const baseStyles = {
     paddingHorizontal: padding.sm,
     paddingVertical: padding.lg,
     width: dimensions.fullWidth,
-    backgroundColor: '#1D1D1D'
+    backgroundColor: colors.primary
   },
   header: {
     backgroundColor: 'transparent',

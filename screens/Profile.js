@@ -1,6 +1,7 @@
 import React from 'react';
 import { StyleSheet, Text, View, Button } from 'react-native';
-import style from './styles/main.js'
+import style from '../styles/main.js'
+import playerData from '../json/players.json'
 
 export default class Profile extends React.Component {
   static navigationOptions = {
@@ -8,12 +9,17 @@ export default class Profile extends React.Component {
     headerBackTitleStyle: {color: '#fff'}
   }
 
+  componentWillMount() {
+    this.player = playerData.players[this.props.navigation.state.params.id]
+  }
+
+
   render() {
     const { navigate } = this.props.navigation;
     return (
       <View style={style.container}>
-        <Text style={style.textMD}>Profile Page</Text>
-        <Text style={style.textMD}>{this.props.navigation.state.params.name}</Text>
+        <Text style={style.textMD}>{this.player.name}</Text>
+        <Text style={style.textMD}>{this.player.id}</Text>
       </View>       
     );
   }

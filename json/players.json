@@ -1,0 +1,185 @@
+{
+  "players": [
+    {
+      "id": 1,
+      "name": "HerroCritty",
+      "rank": "gold",
+      "division": 1,
+      "roles": [
+        "jungle",
+        "support",
+        "top",
+        "mid"
+      ],
+      "about": "I have been playing League since 2013, starting off more casual, eventually gettting more into ranked play. I am looking to get more involved with team play, and learning to play with an actual team.",
+      "timePlayed": {
+        "time": "5 Years, 3 Months",
+        "type": "Casual"
+      },
+      "playstyle": "Aggressive",
+      "teamExperience": "Yes"
+    }, {
+      "id": 2,
+      "name": "TalGo",
+      "rank": "gold",
+      "division": 1,
+      "roles": [
+        "jungle",
+        "support",
+        "top",
+        "mid"
+      ],
+      "about": "I have been playing League since 2013, starting off more casual, eventually gettting more into ranked play. I am looking to get more involved with team play, and learning to play with an actual team.",
+      "timePlayed": {
+        "time": "5 Years, 3 Months",
+        "type": "Casual"
+      },
+      "playstyle": "Aggressive",
+      "teamExperience": "Yes"
+    }, {
+      "id": 3,
+      "name": "Brotha_Muffin",
+      "rank": "gold",
+      "division": 1,
+      "roles": [
+        "jungle",
+        "support",
+        "top",
+        "mid"
+      ],
+      "about": "I have been playing League since 2013, starting off more casual, eventually gettting more into ranked play. I am looking to get more involved with team play, and learning to play with an actual team.",
+      "timePlayed": {
+        "time": "5 Years, 3 Months",
+        "type": "Casual"
+      },
+      "playstyle": "Aggressive",
+      "teamExperience": "Yes"
+    }, {
+      "id": 4,
+      "name": "9321214",
+      "rank": "gold",
+      "division": 1,
+      "roles": [
+        "jungle",
+        "support",
+        "top",
+        "mid"
+      ],
+      "about": "I have been playing League since 2013, starting off more casual, eventually gettting more into ranked play. I am looking to get more involved with team play, and learning to play with an actual team.",
+      "timePlayed": {
+        "time": "5 Years, 3 Months",
+        "type": "Casual"
+      },
+      "playstyle": "Aggressive",
+      "teamExperience": "Yes"
+    }, {
+      "id": 5,
+      "name": "Kali_Doughnuts",
+      "rank": "gold",
+      "division": 1,
+      "roles": [
+        "jungle",
+        "support",
+        "top",
+        "mid"
+      ],
+      "about": "I have been playing League since 2013, starting off more casual, eventually gettting more into ranked play. I am looking to get more involved with team play, and learning to play with an actual team.",
+      "timePlayed": {
+        "time": "5 Years, 3 Months",
+        "type": "Casual"
+      },
+      "playstyle": "Aggressive",
+      "teamExperience": "Yes"
+    }, {
+      "id": 6,
+      "name": "kimp",
+      "rank": "gold",
+      "division": 1,
+      "roles": [
+        "jungle",
+        "support",
+        "top",
+        "mid"
+      ],
+      "about": "I have been playing League since 2013, starting off more casual, eventually gettting more into ranked play. I am looking to get more involved with team play, and learning to play with an actual team.",
+      "timePlayed": {
+        "time": "5 Years, 3 Months",
+        "type": "Casual"
+      },
+      "playstyle": "Aggressive",
+      "teamExperience": "Yes"
+    }, {
+      "id": 7,
+      "name": "gank_tip23",
+      "rank": "gold",
+      "division": 1,
+      "roles": [
+        "jungle",
+        "support",
+        "top",
+        "mid"
+      ],
+      "about": "I have been playing League since 2013, starting off more casual, eventually gettting more into ranked play. I am looking to get more involved with team play, and learning to play with an actual team.",
+      "timePlayed": {
+        "time": "5 Years, 3 Months",
+        "type": "Casual"
+      },
+      "playstyle": "Aggressive",
+      "teamExperience": "Yes"
+    }, {
+      "id": 8,
+      "name": "theAliStar",
+      "rank": "gold",
+      "division": 1,
+      "roles": [
+        "jungle",
+        "support",
+        "top",
+        "mid"
+      ],
+      "about": "I have been playing League since 2013, starting off more casual, eventually gettting more into ranked play. I am looking to get more involved with team play, and learning to play with an actual team.",
+      "timePlayed": {
+        "time": "5 Years, 3 Months",
+        "type": "Casual"
+      },
+      "playstyle": "Aggressive",
+      "teamExperience": "Yes"
+    }, {
+      "id": 9,
+      "name": "Bdrill_Top",
+      "rank": "gold",
+      "division": 1,
+      "roles": [
+        "jungle",
+        "support",
+        "top",
+        "mid"
+      ],
+      "about": "I have been playing League since 2013, starting off more casual, eventually gettting more into ranked play. I am looking to get more involved with team play, and learning to play with an actual team.",
+      "timePlayed": {
+        "time": "5 Years, 3 Months",
+        "type": "Casual"
+      },
+      "playstyle": "Aggressive",
+      "teamExperience": "Yes"
+    }, {
+      "id": 10,
+      "name": "callinCollin",
+      "rank": "gold",
+      "division": 1,
+      "roles": [
+        "jungle",
+        "support",
+        "top",
+        "mid"
+      ],
+      "about": "I have been playing League since 2013, starting off more casual, eventually gettting more into ranked play. I am looking to get more involved with team play, and learning to play with an actual team.",
+      "timePlayed": {
+        "time": "5 Years, 3 Months",
+        "type": "Casual"
+      },
+      "playstyle": "Aggressive",
+      "teamExperience": "Yes"
+    },
+  ]
+}
