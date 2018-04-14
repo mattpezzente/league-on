@@ -3,7 +3,7 @@
     {
       "id": 1,
       "name": "HerroCritty",
-      "rank": "gold",
+      "rank": "challenger",
       "division": 1,
       "roles": [
         "jungle",
@@ -22,9 +22,8 @@
       "id": 2,
       "name": "TalGo",
       "rank": "gold",
-      "division": 1,
+      "division": "I",
       "roles": [
-        "jungle",
         "support",
         "top",
         "mid"
@@ -39,8 +38,8 @@
     }, {
       "id": 3,
       "name": "Brotha_Muffin",
-      "rank": "gold",
-      "division": 1,
+      "rank": "silver",
+      "division": "II",
       "roles": [
         "jungle",
         "support",
@@ -57,8 +56,8 @@
     }, {
       "id": 4,
       "name": "9321214",
-      "rank": "gold",
-      "division": 1,
+      "rank": "diamond",
+      "division": "V",
       "roles": [
         "jungle",
         "support",
@@ -75,10 +74,10 @@
     }, {
       "id": 5,
       "name": "Kali_Doughnuts",
-      "rank": "gold",
+      "rank": "master",
       "division": 1,
       "roles": [
-        "jungle",
+        "bot",
         "support",
         "top",
         "mid"
@@ -93,11 +92,9 @@
     }, {
       "id": 6,
       "name": "kimp",
-      "rank": "gold",
+      "rank": "unranked",
       "division": 1,
       "roles": [
-        "jungle",
-        "support",
         "top",
         "mid"
       ],
@@ -112,9 +109,9 @@
       "id": 7,
       "name": "gank_tip23",
       "rank": "gold",
-      "division": 1,
+      "division": "IV",
       "roles": [
-        "jungle",
+        "mid",
         "support",
         "top",
         "mid"
@@ -129,10 +126,10 @@
     }, {
       "id": 8,
       "name": "theAliStar",
-      "rank": "gold",
-      "division": 1,
+      "rank": "platinum",
+      "division": "III",
       "roles": [
-        "jungle",
+        "bot",
         "support",
         "top",
         "mid"
@@ -147,11 +144,9 @@
     }, {
       "id": 9,
       "name": "Bdrill_Top",
-      "rank": "gold",
-      "division": 1,
+      "rank": "bronze",
+      "division": "V",
       "roles": [
-        "jungle",
-        "support",
         "top",
         "mid"
       ],
@@ -166,9 +161,8 @@
       "id": 10,
       "name": "callinCollin",
       "rank": "gold",
-      "division": 1,
+      "division": "III",
       "roles": [
-        "jungle",
         "support",
         "top",
         "mid"

@@ -18,4 +18,5 @@ const App = StackNavigator(
   }
 );
 
+
 export default App

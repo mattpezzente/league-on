@@ -1,7 +1,10 @@
 import React from 'react';
-import { StyleSheet, Text, View, Button } from 'react-native';
+import { StyleSheet, Text, View } from 'react-native';
 import style from '../styles/main.js'
+
+
 import playerData from '../json/players.json'
+
 
 export default class Profile extends React.Component {
   static navigationOptions = {
@@ -24,5 +27,3 @@ export default class Profile extends React.Component {
     );
   }
 }
-
-// this.props.navigation.state.params.name

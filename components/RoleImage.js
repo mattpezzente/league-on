@@ -1,11 +1,14 @@
 import React from 'react';
-import { Image, View, Text } from 'react-native';
+import { Image, View } from 'react-native';
 import style from '../styles/main.js'
+
+
 import topImg from '../assets/role-top.png'
 import jungleImg from '../assets/role-jungle.png'
 import midImg from '../assets/role-mid.png'
 import botImg from '../assets/role-bot.png'
 import supportImg from '../assets/role-support.png'
+
 
 export default class RoleImage extends React.Component {
   constructor(props) {

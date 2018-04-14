@@ -66,6 +66,7 @@ export default panelStyles = createStyles({
   },
   playerBarRole: {
     flex: 1,
+    marginLeft: 10,
     fontSize: fonts.md,
     color: colors.font
   },
