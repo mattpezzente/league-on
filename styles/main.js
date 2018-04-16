@@ -6,8 +6,6 @@ export default panelStyles = createStyles({
     color: colors.secondary
   },
   container: {
-    paddingHorizontal: padding.sm,
-    paddingVertical: padding.lg,
     width: dimensions.fullWidth,
     height: dimensions.fullHeight,
     backgroundColor: '#1D1D1D'
@@ -20,6 +18,12 @@ export default panelStyles = createStyles({
   section: {
     paddingVertical: padding.lg,
     paddingHorizontal: padding.xl
+  },
+  flexCenter: {
+    display: 'flex',
+    flexWrap: 'wrap',
+    flexDirection: 'row',
+    alignItems: 'center'
   },
   textMD: {
     color: '#fff',
@@ -73,5 +77,19 @@ export default panelStyles = createStyles({
   playerBarArrow: {
     fontSize: fonts.md,
     color: colors.tertiary
+  },
+  actionBarContainer: {
+    display: 'flex',
+    flexWrap: 'nowrap',
+    flexDirection: 'row',
+    alignItems: 'center',
+    justifyContent: 'space-around',
+    padding: 5,
+    width: dimensions.width,
+    fontSize: 12,
+    color: colors.tertiary,
+    backgroundColor: 'transparent',
+    borderBottomWidth: 4,
+    borderColor: colors.accent
   }
 })
