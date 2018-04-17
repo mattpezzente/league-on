@@ -6,7 +6,7 @@ import actionRecruit from '../assets/action-recruit.png'
 import actionMessage from '../assets/action-message.png'
 import actionReport from '../assets/action-report.png'
 
-export default class ActionBar extends React.Component {
+export default class ActionBarProfile extends React.Component {
   state = {
     formModalVisible: false
   }

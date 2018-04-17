@@ -6,6 +6,7 @@ export default panelStyles = createStyles({
     color: colors.secondary
   },
   container: {
+    padding: 10,
     width: dimensions.fullWidth,
     height: dimensions.fullHeight,
     backgroundColor: '#1D1D1D'
@@ -29,6 +30,35 @@ export default panelStyles = createStyles({
     color: '#fff',
     fontSize: fonts.md
   },
+  test: {
+    color: 'red'
+  },
+  flexCenterRecruit: {
+    display: 'flex',
+    paddingLeft: 20,
+    paddingRight: 20,
+    paddingTop: 5,
+    paddingBottom: 8,
+    flexWrap: 'wrap',
+    flexDirection: 'row',
+    alignItems: 'center',
+    backgroundColor: colors.accent
+  },
+  flexCenterRecruitText3: {
+    flex: 2,
+    color: '#fff',
+    fontSize: fonts.md
+  },
+  flexCenterRecruitText2: {
+    flex: 2,
+    color: '#fff',
+    fontSize: fonts.md
+  },
+  flexCenterRecruitText1: {
+    flex: 1,
+    color: '#fff',
+    fontSize: fonts.md
+  },
   playerBarWrapper: {
     marginBottom: margin.sm,
     padding: 3,
@@ -39,9 +69,10 @@ export default panelStyles = createStyles({
   },
   playerBarContainer: {
     display: 'flex',
+    flexWrap: 'nowrap',
     flexDirection: 'row',
-    justifyContent: 'space-between',
-    alignItems: 'center',
+    justifyContent: 'space-around',
+    alignItems: 'center'
   },
   playerBarRank: {
     height: 50,
@@ -88,7 +119,7 @@ export default panelStyles = createStyles({
     width: dimensions.width,
     fontSize: 12,
     color: colors.tertiary,
-    backgroundColor: 'transparent',
+    backgroundColor: colors.primary,
     borderBottomWidth: 4,
     borderColor: colors.accent
   }

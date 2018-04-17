@@ -4,7 +4,7 @@ import style from '../styles/main.js'
 import playerData from '../json/players.json'
 
 import RankImage from '../components/RankImage.js'
-import ActionBar from '../components/ActionBar.js'
+import ActionBarProfile from '../components/ActionBarProfile.js'
 
 export default class Profile extends React.Component {
   static navigationOptions = {
@@ -20,7 +20,7 @@ export default class Profile extends React.Component {
   render() {
     return (
       <View style={style.container}>
-        <ActionBar />
+        <ActionBarProfile />
         <RankImage rank={this.player.rank} division={this.player.division}/>
         <Text style={style.textMD}>{this.player.name}</Text>
         <Text style={style.textMD}>{this.player.id}</Text>

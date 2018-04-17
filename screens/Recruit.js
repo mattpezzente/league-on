@@ -4,6 +4,7 @@ import style from '../styles/main.js'
 import playerData from '../json/players.json'
 
 import PlayerBar from '../components/PlayerBar.js'
+import ActionBarRecruit from '../components/ActionBarRecruit.js'
 
 export default class Recruit extends React.Component {
   static navigationOptions = {
@@ -32,9 +33,17 @@ export default class Recruit extends React.Component {
   render() {
     const { navigate } = this.props.navigation;
     return (
-      <ScrollView style={style.container}>
-        {this.players}
-      </ScrollView>
+      <View>
+        <ActionBarRecruit />
+        <View style={style.flexCenterRecruit}>
+          <Text style={style.flexCenterRecruitText1}>Rank</Text>
+          <Text style={style.flexCenterRecruitText2}>Name</Text>
+          <Text style={style.flexCenterRecruitText3}>Role</Text>
+        </View>
+        <ScrollView style={style.container}>
+          {this.players}
+        </ScrollView>
+      </View>
     );
   }
 }
