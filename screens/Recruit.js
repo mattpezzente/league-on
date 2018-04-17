@@ -17,7 +17,7 @@ export default class Recruit extends React.Component {
     )
   }
 
-  constructor(props) { 
+  constructor(props) {
     super()
     this.players = ''
   }
