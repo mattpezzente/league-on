@@ -24,14 +24,12 @@ export default panelStyles = createStyles({
     display: 'flex',
     flexWrap: 'wrap',
     flexDirection: 'row',
-    alignItems: 'center'
+    alignItems: 'center',
+    justifyContent: 'center'
   },
   textMD: {
     color: '#fff',
     fontSize: fonts.md
-  },
-  test: {
-    color: 'red'
   },
   flexCenterRecruit: {
     display: 'flex',
@@ -85,7 +83,6 @@ export default panelStyles = createStyles({
     top: 25,
     left: 28,
     padding: 3,
-    fontSize: 12,
     color: colors.tertiary,
     backgroundColor: colors.primary,
     opacity: 0.9,
@@ -116,11 +113,49 @@ export default panelStyles = createStyles({
     alignItems: 'center',
     justifyContent: 'space-around',
     padding: 5,
-    width: dimensions.width,
-    fontSize: 12,
-    color: colors.tertiary,
+    width: dimensions.fullWidth,
     backgroundColor: colors.primary,
     borderBottomWidth: 4,
     borderColor: colors.accent
+  },
+  profilePlayerName: {
+
+  },
+  profileSection: {
+    width: dimensions.fullWidth,
+    padding: padding.sm
+  },
+  profileSectionTitle: {
+    textAlign: 'center',
+  },
+  profileTextName: {
+    fontSize: 22,
+    color: colors.font
+  },
+  profileRankImage: {
+    left: 55,
+    top: 55
+  },
+  profileRoleText: {
+    fontSize: 22,
+    color: colors.tertiary
+  },
+  opggButton: {
+    top: 5,
+    left: 15,
+    backgroundColor: colors.accent,
+    textAlign: 'center',
+    paddingTop: 5,
+    paddingBottom: 5,
+    borderRadius: 3
+  },
+  recruitModal: {
+    display: 'flex',
+    alignItems: 'center',
+    justifyContent: 'center',
+    backgroundColor: colors.primary,
+    opacity: 0.8,
+    height: dimensions.fullHeight,
+    width: dimensions.fullWidth
   }
 })

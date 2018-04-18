@@ -21,19 +21,15 @@ export default class ActionBarProfile extends React.Component {
         <View>
           <Modal
             animationType="fade"
-            transparent={false}
+            transparent={true}
             visible={this.state.formModalVisible}
             onRequestClose={() => {
               alert('Modal has been closed.');
             }}>
-            <View>
-              <Text>Hello World!</Text>
-
-              <TouchableHighlight
-                onPress={() => {
-                  this.setformModalVisible(!this.state.formModalVisible);
-                }}>
-                <Text>Hide Modal</Text>
+            <View style={style.recruitModal}>
+              <Text style={style.textMD}>Hello World!</Text>
+              <TouchableHighlight onPress={() => {this.setformModalVisible(!this.state.formModalVisible);}}>
+                <Text style={style.textMD}>Hide Modal</Text>
               </TouchableHighlight>
             </View>
           </Modal>

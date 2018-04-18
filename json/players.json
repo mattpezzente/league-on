@@ -5,6 +5,7 @@
       "name": "HerroCritty",
       "rank": "challenger",
       "division": 1,
+      "icon": 0,
       "roles": [
         "jungle",
         "support",
@@ -23,6 +24,7 @@
       "name": "TalGo",
       "rank": "gold",
       "division": "I",
+      "icon": "../assets/player-icon.png",
       "roles": [
         "support",
         "top",
@@ -40,6 +42,7 @@
       "name": "Brotha_Muffin",
       "rank": "silver",
       "division": "II",
+      "icon": "../assets/player-icon.png",
       "roles": [
         "jungle",
         "support",
@@ -58,6 +61,7 @@
       "name": "9321214",
       "rank": "diamond",
       "division": "V",
+      "icon": "../assets/player-icon.png",
       "roles": [
         "jungle",
         "support",
@@ -76,6 +80,7 @@
       "name": "Kali_Doughnuts",
       "rank": "master",
       "division": 1,
+      "icon": "../assets/player-icon.png",
       "roles": [
         "bot",
         "support",
@@ -94,6 +99,7 @@
       "name": "kimp",
       "rank": "unranked",
       "division": 1,
+      "icon": "../assets/player-icon.png",
       "roles": [
         "top",
         "mid"
@@ -110,6 +116,7 @@
       "name": "gank_tip23",
       "rank": "gold",
       "division": "IV",
+      "icon": "../assets/player-icon.png",
       "roles": [
         "mid",
         "support",
@@ -128,6 +135,7 @@
       "name": "theAliStar",
       "rank": "platinum",
       "division": "III",
+      "icon": "../assets/player-icon.png",
       "roles": [
         "bot",
         "support",
@@ -146,6 +154,7 @@
       "name": "Bdrill_Top",
       "rank": "bronze",
       "division": "V",
+      "icon": "../assets/player-icon.png",
       "roles": [
         "top",
         "mid"
@@ -162,6 +171,7 @@
       "name": "callinCollin",
       "rank": "gold",
       "division": "III",
+      "icon": "../assets/player-icon.png",
       "roles": [
         "support",
         "top",
