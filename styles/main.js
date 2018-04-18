@@ -149,6 +149,10 @@ export default panelStyles = createStyles({
     paddingBottom: 5,
     borderRadius: 3
   },
+  opggButtonText: {
+    marginLeft: 10,
+    marginRight: 10
+  },
   recruitModal: {
     display: 'flex',
     alignItems: 'center',

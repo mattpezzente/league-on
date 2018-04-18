@@ -33,6 +33,8 @@ export default class RoleImage extends React.Component {
       case 'support':
         roleImage = <Image source={supportImg} />
         break
+      default:
+        roleImage = ''
     }
     return(
       <View>
