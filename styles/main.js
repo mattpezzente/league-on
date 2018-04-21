@@ -144,7 +144,6 @@ export default panelStyles = createStyles({
     top: 5,
     left: 15,
     backgroundColor: colors.accent,
-    textAlign: 'center',
     paddingTop: 5,
     paddingBottom: 5,
     borderRadius: 3

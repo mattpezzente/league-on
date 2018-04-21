@@ -37,7 +37,8 @@
       },
       "playstyle": "Aggressive",
       "teamExperience": "Yes"
-    }, {
+    }, 
+    {
       "id": 3,
       "name": "Brotha_Muffin",
       "rank": "silver",

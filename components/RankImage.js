@@ -14,12 +14,8 @@ import challengerImg from '../assets/rank-challenger.png'
 
 
 export default class RankImage extends React.Component {
-  constructor(props) {
-    super()
-    this.rankImg = ''
-  }
-
-  componentWillMount() {
+  render() {
+    let rankImage = ''
     switch(this.props.rank) {
       case 'unranked':
         this.rankImage = (
@@ -72,9 +68,6 @@ export default class RankImage extends React.Component {
         )
         break
     }
-  }
-
-  render() {
     return(
       <View>
         {this.rankImage}

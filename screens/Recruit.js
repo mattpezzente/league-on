@@ -1,12 +1,15 @@
 import React from 'react';
 import { Button, Text, View, Image, ScrollView } from 'react-native';
 import style from '../styles/main.js'
-import playerData from '../json/players.json'
-
+//Redux
+import { connect } from 'react-redux'
+import { loadPlayers } from '../redux/actions'
+// Custom Components
 import PlayerBar from '../components/PlayerBar.js'
 import ActionBarRecruit from '../components/ActionBarRecruit.js'
 
-export default class Recruit extends React.Component {
+
+class Recruit extends React.Component {
   static navigationOptions = {
     title: 'Recruit',
     headerLeft: (
@@ -17,21 +20,23 @@ export default class Recruit extends React.Component {
     )
   }
 
-  constructor(props) {
-    super()
-    this.players = ''
-  }
-
   componentWillMount() {
-    this.players = playerData.players.map((player, i) => {
-      return(
-        <PlayerBar key={i} navigation={this.props.navigation} id={i} name={player.name} rank={player.rank} division={player.division} roles={player.roles}/>
-      )
-    })
+    this.props.dispatch(loadPlayers())
   }
   
   render() {
     const { navigate } = this.props.navigation;
+    
+    let players = ''
+
+    if (this.props.players) {
+      players = this.props.players.map((player, i) => {
+        return(
+          <PlayerBar key={i} navigation={this.props.navigation} id={i} name={player.name} rank={player.rank} division={player.division} roles={player.roles}/>
+        )
+      })
+    }
+    
     return (
       <View>
         <ActionBarRecruit />
@@ -41,10 +46,17 @@ export default class Recruit extends React.Component {
           <Text style={style.flexCenterRecruitText3}>Role</Text>
         </View>
         <ScrollView style={style.container}>
-          {this.players}
+          {players}
         </ScrollView>
       </View>
     );
   }
 }
 
+const mapStateToProps = (state, ownProps) => {
+  return({ players : state.players})
+}
+
+export default connect(
+  mapStateToProps,
+)(Recruit)
