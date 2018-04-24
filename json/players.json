@@ -13,12 +13,33 @@
         "mid"
       ],
       "about": "I have been playing League since 2013, starting off more casual, eventually gettting more into ranked play. I am looking to get more involved with team play, and learning to play with an actual team.",
-      "timePlayed": {
-        "time": "5 Years, 3 Months",
-        "type": "Casual"
-      },
-      "playstyle": "Aggressive",
-      "teamExperience": "Yes"
+      "details" : [
+        {
+          "timePlayed": "5 Years, 3 Months, Casual"
+        }, {
+          "roles": "support, top, mid"
+        }, {
+          "teamExperience": "Yes",
+        }, {
+          "playstyle": "Aggressive",
+        }
+      ],
+      "availability": [
+        "Sun",
+        "Mon",
+        "Tue",
+        "Wed",
+        "Thu",
+        "Fri",
+        "Sat"
+      ],
+      "social": {
+        "twitter": "https://twitter.com/dan_abramov",
+        "facebook": "https://www.facebook.com/Nightblue3LoL/",
+        "twitch": "https://www.twitch.tv/nightblue3",
+        "youtube": "https://www.youtube.com/user/Nightblue3",
+        "google": "https://plus.google.com/117890238694501850755"
+      }
     }, {
       "id": 2,
       "name": "TalGo",

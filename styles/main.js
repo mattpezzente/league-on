@@ -8,7 +8,14 @@ export default panelStyles = createStyles({
   container: {
     padding: 10,
     width: dimensions.fullWidth,
-    height: dimensions.fullHeight,
+
+    backgroundColor: '#1D1D1D'
+  },
+  containerFull: {
+    width: dimensions.fullWidth,
+    backgroundColor: '#1D1D1D'
+  },
+  containerBackgroundColor: {
     backgroundColor: '#1D1D1D'
   },
   header: {
@@ -87,6 +94,7 @@ export default panelStyles = createStyles({
     backgroundColor: colors.primary,
     opacity: 0.9,
     textAlign: 'center',
+    fontSize: 11,
     borderRadius: 12,
     borderColor: colors.tertiary,
     borderWidth: 1
@@ -118,15 +126,17 @@ export default panelStyles = createStyles({
     borderBottomWidth: 4,
     borderColor: colors.accent
   },
-  profilePlayerName: {
-
-  },
   profileSection: {
     width: dimensions.fullWidth,
-    padding: padding.sm
+    padding: padding.lg
   },
   profileSectionTitle: {
+    padding: 3,
     textAlign: 'center',
+    color: colors.font,
+    fontSize: 18,
+    backgroundColor: colors.accent,
+    width: dimensions.fullWidth
   },
   profileTextName: {
     fontSize: 22,
@@ -136,21 +146,92 @@ export default panelStyles = createStyles({
     left: 55,
     top: 55
   },
+  profileRoleContainer: {
+    display: 'flex',
+    flexWrap: 'wrap',
+    flexDirection: 'row',
+    alignItems: 'center',
+    justifyContent: 'flex-start',
+    marginLeft: 10
+  },
   profileRoleText: {
     fontSize: 22,
     color: colors.tertiary
   },
   opggButton: {
+    display: 'flex',
+    flexDirection: 'row',
+    alignItems: 'center',
+    justifyContent: 'center',
     top: 5,
     left: 15,
     backgroundColor: colors.accent,
-    paddingTop: 5,
-    paddingBottom: 5,
+    width: 80,
+    height: 35,
     borderRadius: 3
   },
   opggButtonText: {
     marginLeft: 10,
     marginRight: 10
+  },
+  profileDetailsContainer: {
+    display: 'flex',
+    flexWrap: 'wrap',
+    flexDirection: 'row',
+    justifyContent: 'flex-start'
+  },
+  profileDetailsItem: {
+    width: 165,
+    margin: 10,
+  },
+  profileDetailsTitle: {
+    fontSize: 18,
+    fontWeight: 'bold',
+    color: colors.font
+  },
+  profileDetailsText: {
+    fontSize: 16,
+    color: colors.font
+  },
+  profileAvailabilityDays: {
+    display: 'flex',
+    flexDirection: 'row',
+    alignItems: 'center',
+    justifyContent: 'center',
+    width: 35,
+    height: 35,
+    marginTop: 15,
+    marginBottom: 15,
+    marginLeft: 5,
+    marginRight: 5,
+    backgroundColor: colors.primary,
+    borderWidth: 2,
+    borderColor: colors.accent,
+    borderRadius: 17.5,
+  },
+  profileAvailabilityDaysText: {
+    color: colors.accent,
+    fontSize: 15
+  },
+  profileAvailabilityDaysFilled: {
+    display: 'flex',
+    flexDirection: 'row',
+    alignItems: 'center',
+    justifyContent: 'center',
+    width: 35,
+    height: 35,
+    marginTop: 15,
+    marginBottom: 15,
+    marginLeft: 5,
+    marginRight: 5,
+    backgroundColor: colors.accent,
+    borderWidth: 2,
+    borderColor: colors.font,
+    borderRadius: 17.5,
+  },
+  profileAvailabilityDaysTextFilled: {
+    color: colors.font,
+    fontSize: 15
   },
   recruitModal: {
     display: 'flex',
@@ -160,5 +241,5 @@ export default panelStyles = createStyles({
     opacity: 0.8,
     height: dimensions.fullHeight,
     width: dimensions.fullWidth
-  }
+  },
 })

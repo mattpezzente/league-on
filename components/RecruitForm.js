@@ -1,7 +1,7 @@
-import React from 'react';
-import { StyleSheet, Text, View, Image, ImageBackground, TouchableHighlight } from 'react-native';
+import React from 'react'
+import { StyleSheet, Text, View, Image } from 'react-native'
+// import { FormLabel, FormInput } from 'react-native-elements'
 import style from '../styles/main.js'
-import playerData from '../json/players.json'
 
 export default class Profile extends React.Component {
   render() {

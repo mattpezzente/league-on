@@ -1,15 +1,16 @@
-import React from 'react';
-import { StyleSheet, Text, View, Image, ImageBackground, TouchableHighlight } from 'react-native';
+import React from 'react'
+import { StyleSheet, Text, View, Image, ImageBackground, TouchableHighlight, ScrollView} from 'react-native'
 import style from '../styles/main.js'
 // Redux
 import { connect } from 'react-redux'
 import { loadPlayer } from '../redux/actions'
-//Components
+// Images
+import playerIcon from '../assets/player-icon.png'
+// Components
+import { ProfileAbout, ProfileAvailability, ProfileSocial, ProfileDetails } from '../components/ProfileSection'
 import RankImage from '../components/RankImage.js'
 import RoleImage from '../components/RoleImage.js'
 import ActionBarProfile from '../components/ActionBarProfile.js'
-// Images
-import playerIcon from '../assets/player-icon.png'
 
 class Profile extends React.Component {
   static navigationOptions = {
@@ -21,34 +22,34 @@ class Profile extends React.Component {
     this.props.dispatch(loadPlayer(this.props.navigation.state.params.id))
   }
 
-  render() {
-    console.log('PROFILE_PLAYER', this.props)    
+  render() { 
     return (
-      <View>
-        <ActionBarProfile />
-        <View style={style.container}>
-          <View style={[style.profileSection, style.flexCenter]}>
-            <ImageBackground source={playerIcon} style={{width: 100, height: 100}}>
-              <View style={style.profileRankImage}>
-                <RankImage rank={this.props.player.rank} division={this.props.player.division} />
+      <ScrollView style={style.containerFull}>
+          <ActionBarProfile />
+          <View>
+            <View style={[style.profileSection, style.flexCenter]}>
+              <ImageBackground source={playerIcon} style={{width: 100, height: 100}}>
+                <View style={style.profileRankImage}>
+                  <RankImage rank={this.props.player.rank} division={this.props.player.division} />
+                </View>
+              </ImageBackground>
+              <View>
+                <Text style={style.profileTextName}>{this.props.player.name}</Text>
+                <View style={style.profileRoleContainer}>
+                  <RoleImage role={this.props.player.roles[0]} />
+                  <Text style={style.profileRoleText}>{this.props.player.roles[0]}</Text>
+                </View>
+              <TouchableHighlight style={style.opggButton}>
+                <Text style={[style.textMD, style.opggButtonText]}>OP.GG</Text>
+              </TouchableHighlight>
               </View>
-            </ImageBackground>
-            <View>
-              <Text style={style.profileTextName}>{this.props.player.name}</Text>
-              <View style={style.flexCenter}>
-                <RoleImage role={this.props.player.roles[0]} />
-                <Text style={style.profileRoleText}>{this.props.player.roles[0]}</Text>
-              </View>
-            <TouchableHighlight style={style.opggButton}>
-              <Text style={[style.textMD, style.opggButtonText]}>OP.GG</Text>
-            </TouchableHighlight>
             </View>
           </View>
-          <View style={[style.profileSection, style.flexCenter]}>
-            <Text style={style.textMD}>{this.props.player.about}</Text>
-          </View>
-        </View>
-      </View>
+          <ProfileAbout about={this.props.player.about}/>
+          <ProfileDetails details={this.props.player.details}/>
+          <ProfileAvailability availability={this.props.player.availability}/>
+          <ProfileSocial schedule={this.props.player.about}/>
+      </ScrollView>
     );
   }
 }

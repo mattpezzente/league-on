@@ -8,6 +8,8 @@ import {showRecruitModal} from '../redux/actions'
 import actionRecruit from '../assets/action-recruit.png'
 import actionMessage from '../assets/action-message.png'
 import actionReport from '../assets/action-report.png'
+// Components
+import RecruitForm from './RecruitForm'
 
 class ActionBarProfile extends React.Component {
   setRecruitModalVisible(visible) {
@@ -15,7 +17,6 @@ class ActionBarProfile extends React.Component {
   }
 
   render() {
-    console.log('ACTION_PROPS', this.props)
     return (
       <View style={style.actionBarContainer}>
         <View>
@@ -27,7 +28,7 @@ class ActionBarProfile extends React.Component {
               alert('Modal has been closed.');
             }}>
             <View style={style.recruitModal}>
-              <Text style={style.textMD}>Hello World!</Text>
+              <RecruitForm />
               <TouchableHighlight onPress={() => {this.setRecruitModalVisible(this.props.modalVisible)}}>
                 <Text style={style.textMD}>Hide Modal</Text>
               </TouchableHighlight>
