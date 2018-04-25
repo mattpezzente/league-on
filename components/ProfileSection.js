@@ -1,6 +1,13 @@
 import React from 'react'
-import { StyleSheet, Text, View } from 'react-native'
+import { StyleSheet, Text, View, Image, TouchableHighlight } from 'react-native'
 import style from '../styles/main.js'
+// Images
+import socialFacebook from '../assets/social-facebook.png'
+import socialTwitter from '../assets/social-twitter.png'
+import socialGoogle from '../assets/social-google.png'
+import socialYouTube from '../assets/social-youtube.png'
+import socialTwitch from '../assets/social-twitch.png'
+
 
 export const ProfileAbout = (props) => {
   return (
@@ -69,10 +76,43 @@ export const ProfileAvailability = (props) => {
 }
 
 export const ProfileSocial = (props) => {
+  let social = ''
+  if (props.social) {
+    social = props.social.map((social, i) => {
+      let key = ''
+      let socImg = ''
+      for(key in social)
+      switch(key) {
+        case 'facebook':
+          socImg = socialFacebook
+          break
+        case 'twitter':
+          socImg = socialTwitter
+          break
+        case 'google':
+          socImg = socialGoogle
+          break
+        case 'youtube':
+          socImg = socialYouTube
+          break
+        case 'twitch':
+          socImg = socialTwitch
+          break
+      }
+      console.log('Title: ', socImg)
+      console.log('Link: ', social[key])
+      return (
+        <TouchableHighlight style={style.profileDetailsItem}>
+          <Text>{key}</Text>
+        </TouchableHighlight>
+      )
+    })
+  }
   return (
     <View>
       <Text style={style.profileSectionTitle}>Social</Text>
-      <View style={style.container}>
+      <View style={style.profileDetailsContainer}>
+        {social}
       </View>
     </View>
   )

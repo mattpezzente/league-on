@@ -48,7 +48,7 @@ class Profile extends React.Component {
           <ProfileAbout about={this.props.player.about}/>
           <ProfileDetails details={this.props.player.details}/>
           <ProfileAvailability availability={this.props.player.availability}/>
-          <ProfileSocial schedule={this.props.player.about}/>
+          <ProfileSocial social={this.props.player.social}/>
       </ScrollView>
     );
   }
