@@ -1,26 +1,14 @@
 import React from 'react'
 import { StyleSheet, Text, View, Image, TouchableHighlight } from 'react-native'
 import style from '../styles/main.js'
+// Custom JS Functions
+import { normalizeText } from '../js/tools.js'
 // Images
 import socialFacebook from '../assets/social-facebook.png'
 import socialTwitter from '../assets/social-twitter.png'
 import socialGoogle from '../assets/social-google.png'
 import socialYouTube from '../assets/social-youtube.png'
 import socialTwitch from '../assets/social-twitch.png'
-
-String.prototype.normalizeText = function() {
-  let newText = this
-  for(let i = 0; i < newText.length; i++) {
-    if (i == 1 && newText.charAt(i) !== newText.charAt(i).toUpperCase()) {
-      newText = newText.slice(0,1).toUpperCase() + newText.slice(1, newText.length)
-    }
-    if (i > 1 && newText.charAt(i) == newText.charAt(i).toUpperCase()) {
-      newText = newText.slice(0, i) + ' ' + newText.slice(i)
-      i++
-    }
-  }
-  return newText
-}
 
 export const ProfileAbout = (props) => {
   return (
@@ -41,7 +29,7 @@ export const ProfileDetails = (props) => {
       for(key in detail)
       return (
         <View key={i} style={style.profileDetailsItem}>
-          <Text style={style.profileDetailsTitle}>{key.normalizeText()}</Text>
+          <Text style={style.profileDetailsTitle}>{normalizeText(key)}</Text>
           <Text style={style.profileDetailsText}>{detail[key]}</Text>
         </View>
       )
@@ -58,31 +46,149 @@ export const ProfileDetails = (props) => {
 }
 
 export const ProfileAvailability = (props) => {
+  let availability = [
+    'na',
+    'na',
+    'na',
+    'na',
+    'na',
+    'na',
+    'na'
+  ]
+  for (let i = 0; i < props.availability.length; i++) {
+    switch(props.availability[i]) {
+      case 'Sun':
+        availability[0] = 'Sun'
+        break
+      case 'Mon':
+        availability[1] = 'Mon'
+        break
+      case 'Tue':
+        availability[2] = 'Tue'
+        break
+      case 'Wed':
+        availability[3] = 'Wed'
+        break
+      case 'Thu':
+        availability[4] = 'Thu'
+        break
+      case 'Fri':
+        availability[5] = 'Fri'
+        break
+      case 'Sat':
+        availability[6] = 'Sat'
+        break
+    }
+  }
+  if (availability[0] == 'Sun') {
+    availability[0] = (
+      <View style={style.profileAvailabilityDaysFilled}>
+        <Text style={style.profileAvailabilityDaysTextFilled}>S</Text>
+      </View>
+    )
+  }
+  else {
+    availability[0] = (
+      <View style={style.profileAvailabilityDays}>
+        <Text style={style.profileAvailabilityDaysText}>S</Text>
+      </View>
+    )
+  }
+
+  if (availability[1] == 'Mon') {
+    availability[1] = (
+      <View style={style.profileAvailabilityDaysFilled}>
+        <Text style={style.profileAvailabilityDaysTextFilled}>M</Text>
+      </View>
+    )
+  }
+  else {
+    availability[1] = (
+      <View style={style.profileAvailabilityDays}>
+        <Text style={style.profileAvailabilityDaysText}>M</Text>
+      </View>
+    )
+  }
+
+  if (availability[2] == 'Tue') {
+    availability[2] = (
+      <View style={style.profileAvailabilityDaysFilled}>
+        <Text style={style.profileAvailabilityDaysTextFilled}>T</Text>
+      </View>
+    )
+  }
+  else {
+    availability[2] = (
+      <View style={style.profileAvailabilityDays}>
+        <Text style={style.profileAvailabilityDaysText}>T</Text>
+      </View>
+    )
+  }
+
+  if (availability[3] == 'Wed') {
+    availability[3] = (
+      <View style={style.profileAvailabilityDaysFilled}>
+        <Text style={style.profileAvailabilityDaysTextFilled}>W</Text>
+      </View>
+    )
+  }
+  else {
+    availability[3] = (
+      <View style={style.profileAvailabilityDays}>
+        <Text style={style.profileAvailabilityDaysText}>W</Text>
+      </View>
+    )
+  }
+
+  if (availability[4] == 'Thu') {
+    availability[4] = (
+      <View style={style.profileAvailabilityDaysFilled}>
+        <Text style={style.profileAvailabilityDaysTextFilled}>T</Text>
+      </View>
+    )
+  }
+  else {
+    availability[4] = (
+      <View style={style.profileAvailabilityDays}>
+        <Text style={style.profileAvailabilityDaysText}>T</Text>
+      </View>
+    )
+  }
+
+  if (availability[5] == 'Fri') {
+    availability[5] = (
+      <View style={style.profileAvailabilityDaysFilled}>
+        <Text style={style.profileAvailabilityDaysTextFilled}>F</Text>
+      </View>
+    )
+  }
+  else {
+    availability[5] = (
+      <View style={style.profileAvailabilityDays}>
+        <Text style={style.profileAvailabilityDaysText}>F</Text>
+      </View>
+    )
+  }
+
+  if (availability[6] == 'Sat') {
+    availability[6] = (
+      <View style={style.profileAvailabilityDaysFilled}>
+        <Text style={style.profileAvailabilityDaysTextFilled}>S</Text>
+      </View>
+    )
+  }
+  else {
+    availability[6] = (
+      <View style={style.profileAvailabilityDays}>
+        <Text style={style.profileAvailabilityDaysText}>S</Text>
+      </View>
+    )
+  }
   return (
     <View>
       <Text style={style.profileSectionTitle}>Availability</Text>
       <View style={style.flexCenter}>
-        <View style={style.profileAvailabilityDays}>
-          <Text style={style.profileAvailabilityDaysText}>S</Text>
-        </View>
-        <View style={style.profileAvailabilityDays}>
-          <Text style={style.profileAvailabilityDaysText}>M</Text>
-        </View>
-        <View style={style.profileAvailabilityDays}>
-          <Text style={style.profileAvailabilityDaysText}>T</Text>
-        </View>
-        <View style={style.profileAvailabilityDaysFilled}>
-          <Text style={style.profileAvailabilityDaysTextFilled}>W</Text>
-        </View>
-        <View style={style.profileAvailabilityDays}>
-          <Text style={style.profileAvailabilityDaysText}>T</Text>
-        </View>
-        <View style={style.profileAvailabilityDays}>
-          <Text style={style.profileAvailabilityDaysText}>F</Text>
-        </View>
-        <View style={style.profileAvailabilityDays}>
-          <Text style={style.profileAvailabilityDaysText}>S</Text>
-        </View>
+        {availability}
       </View>
     </View>
   )

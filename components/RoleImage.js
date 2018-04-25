@@ -1,8 +1,7 @@
 import React from 'react';
 import { Image, View } from 'react-native';
 import style from '../styles/main.js'
-
-
+// Images
 import topImg from '../assets/role-top.png'
 import jungleImg from '../assets/role-jungle.png'
 import midImg from '../assets/role-mid.png'

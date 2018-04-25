@@ -1,8 +1,7 @@
 import React from 'react';
 import { View, Text, ImageBackground} from 'react-native';
 import style from '../styles/main.js'
-
-
+// Images
 import unrankedImg from '../assets/rank-unranked.png'
 import bronzeImg from '../assets/rank-bronze.png'
 import silverImg from '../assets/rank-silver.png'

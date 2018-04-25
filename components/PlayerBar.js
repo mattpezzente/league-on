@@ -1,7 +1,9 @@
 import React from 'react';
 import { Button, Text, View, Image, TouchableHighlight } from 'react-native';
 import style from '../styles/main.js'
-
+// Custom JS Functions
+import { normalizeText } from '../js/tools.js'
+// Components
 import RankImage from './RankImage.js'
 import RoleImage from './RoleImage.js'
 
@@ -15,7 +17,7 @@ export default class PlayerBar extends React.Component {
             <RankImage rank={this.props.rank} division={this.props.division}/>
             <Text style={style.playerBarName}>{this.props.name}</Text>
             <RoleImage role={this.props.roles[0]} />
-            <Text style={style.playerBarRole}>{this.props.roles[0]}</Text>
+            <Text style={style.playerBarRole}>{normalizeText(this.props.roles[0])}</Text>
             <Text style={style.playerBarArrow}>></Text>
           </View>
         </TouchableHighlight>

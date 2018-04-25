@@ -11,7 +11,7 @@ import Profile from './screens/Profile';
 
 
 const store = createStore(rootReducer)
-
+console.disableYellowBox = true
 
 class App extends React.Component {
   render() {

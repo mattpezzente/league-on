@@ -1,6 +1,8 @@
 import React from 'react'
 import { StyleSheet, Text, View, Image, ImageBackground, TouchableHighlight, ScrollView} from 'react-native'
 import style from '../styles/main.js'
+// Custom JS Functions
+import { normalizeText } from '../js/tools.js'
 // Redux
 import { connect } from 'react-redux'
 import { loadPlayer } from '../redux/actions'
@@ -18,7 +20,7 @@ class Profile extends React.Component {
     headerBackTitleStyle: {color: '#fff'}
   }
 
-  componentWillMount() {
+  componentDidMount() {
     this.props.dispatch(loadPlayer(this.props.navigation.state.params.id))
   }
 
@@ -51,7 +53,7 @@ class Profile extends React.Component {
                 <Text style={style.profileTextName}>{this.props.player.name}</Text>
                 <View style={style.profileRoleContainer}>
                   <RoleImage role={this.props.player.roles[0]} />
-                  <Text style={style.profileRoleText}>{this.props.player.roles[0]}</Text>
+                  <Text style={style.profileRoleText}>{normalizeText(this.props.player.roles[0])}</Text>
                 </View>
               <TouchableHighlight style={style.opggButton}>
                 <Text style={[style.textMD, style.opggButtonText]}>OP.GG</Text>

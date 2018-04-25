@@ -19,7 +19,7 @@ class Recruit extends React.Component {
     )
   }
 
-  componentWillMount() {
+  componentDidMount() {
     this.props.dispatch(loadPlayers())
   }
   

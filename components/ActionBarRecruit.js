@@ -1,7 +1,7 @@
 import React from 'react';
 import { Text, View, Image, TouchableHighlight, Modal } from 'react-native';
 import style from '../styles/main.js'
-
+// Images
 import actionRecruit from '../assets/action-recruit.png'
 import actionMessage from '../assets/action-message.png'
 import actionReport from '../assets/action-report.png'

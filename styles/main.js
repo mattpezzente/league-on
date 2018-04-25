@@ -13,6 +13,7 @@ export default panelStyles = createStyles({
   },
   containerFull: {
     width: dimensions.fullWidth,
+    minHeight: dimensions.fullHeight,
     backgroundColor: '#1D1D1D'
   },
   containerBackgroundColor: {
