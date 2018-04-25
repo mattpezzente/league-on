@@ -233,6 +233,11 @@ export default panelStyles = createStyles({
     color: colors.font,
     fontSize: 15
   },
+  profileSocialItem: {
+    width: 35,
+    height: 35,
+    margin: 10
+  },
   recruitModal: {
     display: 'flex',
     alignItems: 'center',

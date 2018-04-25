@@ -99,11 +99,9 @@ export const ProfileSocial = (props) => {
           socImg = socialTwitch
           break
       }
-      console.log('Title: ', socImg)
-      console.log('Link: ', social[key])
       return (
-        <TouchableHighlight style={style.profileDetailsItem}>
-          <Text>{key}</Text>
+        <TouchableHighlight style={style.profileSocialItem}>
+          <Image source={socImg} />
         </TouchableHighlight>
       )
     })
@@ -111,7 +109,7 @@ export const ProfileSocial = (props) => {
   return (
     <View>
       <Text style={style.profileSectionTitle}>Social</Text>
-      <View style={style.profileDetailsContainer}>
+      <View style={style.flexCenter}>
         {social}
       </View>
     </View>
