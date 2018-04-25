@@ -25,16 +25,16 @@ class Profile extends React.Component {
   render() {
     let detailSections = []
     if (this.props.player.about) {
-      detailSections.push(<ProfileAbout about={this.props.player.about}/>)
+      detailSections.push(<ProfileAbout key={1} about={this.props.player.about}/>)
     }
     if (this.props.player.details) {
-      detailSections.push(<ProfileDetails details={this.props.player.details}/>)
+      detailSections.push(<ProfileDetails key={2} details={this.props.player.details}/>)
     }
     if (this.props.player.availability) {
-      detailSections.push(<ProfileAvailability availability={this.props.player.availability}/>)
+      detailSections.push(<ProfileAvailability key={3} availability={this.props.player.availability}/>)
     }
     if (this.props.player.social) {
-      detailSections.push(<ProfileSocial social={this.props.player.social}/>)
+      detailSections.push(<ProfileSocial key={4} social={this.props.player.social}/>)
     }
 
     return (

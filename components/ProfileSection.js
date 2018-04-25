@@ -8,6 +8,19 @@ import socialGoogle from '../assets/social-google.png'
 import socialYouTube from '../assets/social-youtube.png'
 import socialTwitch from '../assets/social-twitch.png'
 
+String.prototype.normalizeText = function() {
+  let newText = this
+  for(let i = 0; i < newText.length; i++) {
+    if (i == 1 && newText.charAt(i) !== newText.charAt(i).toUpperCase()) {
+      newText = newText.slice(0,1).toUpperCase() + newText.slice(1, newText.length)
+    }
+    if (i > 1 && newText.charAt(i) == newText.charAt(i).toUpperCase()) {
+      newText = newText.slice(0, i) + ' ' + newText.slice(i)
+      i++
+    }
+  }
+  return newText
+}
 
 export const ProfileAbout = (props) => {
   return (
@@ -27,8 +40,8 @@ export const ProfileDetails = (props) => {
       let key
       for(key in detail)
       return (
-        <View style={style.profileDetailsItem}>
-          <Text style={style.profileDetailsTitle}>{key}</Text>
+        <View key={i} style={style.profileDetailsItem}>
+          <Text style={style.profileDetailsTitle}>{key.normalizeText()}</Text>
           <Text style={style.profileDetailsText}>{detail[key]}</Text>
         </View>
       )
@@ -100,7 +113,7 @@ export const ProfileSocial = (props) => {
           break
       }
       return (
-        <TouchableHighlight style={style.profileSocialItem}>
+        <TouchableHighlight key={i} style={style.profileSocialItem}>
           <Image source={socImg} />
         </TouchableHighlight>
       )

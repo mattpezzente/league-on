@@ -8,7 +8,6 @@ import { loadPlayers } from '../redux/actions'
 import PlayerBar from '../components/PlayerBar.js'
 import ActionBarRecruit from '../components/ActionBarRecruit.js'
 
-
 class Recruit extends React.Component {
   static navigationOptions = {
     title: 'Recruit',
@@ -26,9 +25,7 @@ class Recruit extends React.Component {
   
   render() {
     const { navigate } = this.props.navigation;
-    
     let players = ''
-
     if (this.props.players) {
       players = this.props.players.map((player, i) => {
         return(
@@ -36,7 +33,6 @@ class Recruit extends React.Component {
         )
       })
     }
-    
     return (
       <View>
         <ActionBarRecruit />
