@@ -22,7 +22,21 @@ class Profile extends React.Component {
     this.props.dispatch(loadPlayer(this.props.navigation.state.params.id))
   }
 
-  render() { 
+  render() {
+    let detailSections = []
+    if (this.props.player.about) {
+      detailSections.push(<ProfileAbout about={this.props.player.about}/>)
+    }
+    if (this.props.player.details) {
+      detailSections.push(<ProfileDetails details={this.props.player.details}/>)
+    }
+    if (this.props.player.availability) {
+      detailSections.push(<ProfileAvailability availability={this.props.player.availability}/>)
+    }
+    if (this.props.player.social) {
+      detailSections.push(<ProfileSocial social={this.props.player.social}/>)
+    }
+
     return (
       <ScrollView style={style.containerFull}>
           <ActionBarProfile />
@@ -45,10 +59,7 @@ class Profile extends React.Component {
               </View>
             </View>
           </View>
-          <ProfileAbout about={this.props.player.about}/>
-          <ProfileDetails details={this.props.player.details}/>
-          <ProfileAvailability availability={this.props.player.availability}/>
-          <ProfileSocial social={this.props.player.social}/>
+          {detailSections}
       </ScrollView>
     );
   }
