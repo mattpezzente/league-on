@@ -3,8 +3,8 @@
     {
       "id": 1,
       "name": "HerroCritty",
-      "rank": "challenger",
-      "division": 1,
+      "rank": "silver",
+      "division": 2,
       "icon": 0,
       "roles": [
         "jungle",
@@ -47,16 +47,186 @@
         }
       ]
     }, {
-      "id": 1,
-      "name": "HerroCritty",
+      "id": 2823762,
+      "name": "aqua_nami",
+      "rank": "diamond",
+      "division": 5,
+      "icon": 0,
+      "roles": [
+        "support",
+        "bot"
+      ],
+      "about": "I have been playing League since 2013, starting off more casual, eventually gettting more into ranked play. I am looking to get more involved with team play, and learning to play with an actual team.",
+      "details" : [
+        {
+          "timePlayed": "5 Years, 3 Months, Casual"
+        }, {
+          "roles": "support, top, mid"
+        }, {
+          "teamExperience": "Yes",
+        }, {
+          "playstyle": "Aggressive",
+        }
+      ],
+      "availability": [
+        "Thu",
+        "Fri",
+        "Sat"
+      ],
+      "social": [
+        {
+          "twitch": "https://www.twitch.tv/nightblue3",
+        }, {
+          "youtube": "https://www.youtube.com/user/Nightblue3",
+        }, {
+          "google": "https://plus.google.com/117890238694501850755"
+        }
+      ]
+    }, {
+      "id": 234272,
+      "name": "Here_ALLL_DAY",
       "rank": "challenger",
       "division": 1,
       "icon": 0,
       "roles": [
         "jungle",
-        "support",
-        "top",
+        "top"
+      ],
+      "about": "I have been playing League since 2013, starting off more casual, eventually gettting more into ranked play. I am looking to get more involved with team play, and learning to play with an actual team.",
+      "details" : [
+        {
+          "timePlayed": "5 Years, 3 Months, Casual"
+        }, {
+          "roles": "support, top, mid"
+        }, {
+          "teamExperience": "Yes",
+        }, {
+          "playstyle": "Aggressive",
+        }
+      ],
+      "availability": [
+        "Sun",
+        "Tue",
+        "Thu",
+        "Sat"
+      ],
+      "social": [
+        {
+          "youtube": "https://www.youtube.com/user/Nightblue3",
+        }, {
+          "google": "https://plus.google.com/117890238694501850755"
+        }
+      ]
+    }, {
+      "id": 234832,
+      "name": "LOOOOOOOOOL",
+      "rank": "bronze",
+      "division": 3,
+      "icon": 0,
+      "roles": [
         "mid"
+      ],
+      "about": "I have been playing League since 2013, starting off more casual, eventually gettting more into ranked play. I am looking to get more involved with team play, and learning to play with an actual team.",
+      "details" : [
+        {
+          "timePlayed": "5 Years, 3 Months, Casual"
+        }, {
+          "roles": "support, top, mid"
+        }, {
+          "teamExperience": "Yes",
+        }, {
+          "playstyle": "Aggressive",
+        }
+      ],
+      "availability": [
+        "Tue",
+        "Thu",
+        "Sat"
+      ],
+      "social": [
+        {
+          "twitter": "https://twitter.com/Nightbloo",
+        }, {
+          "google": "https://plus.google.com/117890238694501850755"
+        }
+      ]
+    }, {
+      "id": 287233,
+      "name": "mercy_main",
+      "rank": "silver",
+      "division": 3,
+      "icon": 0,
+      "roles": [
+        "support"
+      ],
+      "about": "I have been playing League since 2013, starting off more casual, eventually gettting more into ranked play. I am looking to get more involved with team play, and learning to play with an actual team.",
+      "details" : [
+        {
+          "timePlayed": "5 Years, 3 Months, Casual"
+        }, {
+          "roles": "support, top, mid"
+        }, {
+          "teamExperience": "Yes",
+        }, {
+          "playstyle": "Aggressive",
+        }
+      ],
+      "availability": [
+        "Sun",
+        "Fri",
+        "Sat"
+      ],
+      "social": [
+        {
+          "google": "https://plus.google.com/117890238694501850755"
+        }
+      ]
+    }, {
+      "id": 493762,
+      "name": "In_The_Eyes",
+      "rank": "platinum",
+      "division": 4,
+      "icon": 0,
+      "roles": [
+        "support",
+        "mid"
+      ],
+      "about": "I have been playing League since 2013, starting off more casual, eventually gettting more into ranked play. I am looking to get more involved with team play, and learning to play with an actual team.",
+      "details" : [
+        {
+          "timePlayed": "5 Years, 3 Months, Casual"
+        }, {
+          "roles": "support, top, mid"
+        }, {
+          "teamExperience": "Yes",
+        }, {
+          "playstyle": "Aggressive",
+        }
+      ],
+      "availability": [
+        "Wed",
+        "Thu",
+        "Fri",
+        "Sat"
+      ],
+      "social": [
+        {
+          "twitter": "https://twitter.com/Nightbloo",
+        }, {
+          "facebook": "https://www.facebook.com/Nightblue3LoL/",
+        }, {
+          "twitch": "https://www.twitch.tv/nightblue3",
+        }
+      ]
+    }, {
+      "id": 826482,
+      "name": "BarryAllon",
+      "rank": "diamond",
+      "division": 3,
+      "icon": 0,
+      "roles": [
+        "jungle",
+        "support",
       ],
       "about": "I have been playing League since 2013, starting off more casual, eventually gettting more into ranked play. I am looking to get more involved with team play, and learning to play with an actual team.",
       "details" : [
@@ -73,8 +243,42 @@
       "availability": [
         "Sun",
         "Mon",
-        "Tue",
         "Wed",
+        "Sat"
+      ],
+      "social": [
+        {
+          "twitter": "https://twitter.com/Nightbloo",
+        }, {
+          "youtube": "https://www.youtube.com/user/Nightblue3",
+        }, {
+          "google": "https://plus.google.com/117890238694501850755"
+        }
+      ]
+    }, {
+      "id": 747832,
+      "name": "Mink_Nidalee",
+      "rank": "silver",
+      "division": 1,
+      "icon": 0,
+      "roles": [
+        "jungle",
+        "top"
+      ],
+      "about": "I have been playing League since 2013, starting off more casual, eventually gettting more into ranked play. I am looking to get more involved with team play, and learning to play with an actual team.",
+      "details" : [
+        {
+          "timePlayed": "5 Years, 3 Months, Casual"
+        }, {
+          "roles": "support, top, mid"
+        }, {
+          "teamExperience": "Yes",
+        }, {
+          "playstyle": "Aggressive",
+        }
+      ],
+      "availability": [
+        "Sun",
         "Thu",
         "Fri",
         "Sat"
@@ -85,6 +289,37 @@
         }, {
           "facebook": "https://www.facebook.com/Nightblue3LoL/",
         }, {
+          "google": "https://plus.google.com/117890238694501850755"
+        }
+      ]
+    }, {
+      "id": 2342329,
+      "name": "Ben_Button_Bot",
+      "rank": "silver",
+      "division": 3,
+      "icon": 0,
+      "roles": [
+        "bot"
+      ],
+      "about": "I have been playing League since 2013, starting off more casual, eventually gettting more into ranked play. I am looking to get more involved with team play, and learning to play with an actual team.",
+      "details" : [
+        {
+          "timePlayed": "5 Years, 3 Months, Casual"
+        }, {
+          "roles": "support, top, mid"
+        }, {
+          "teamExperience": "Yes",
+        }, {
+          "playstyle": "Aggressive",
+        }
+      ],
+      "availability": [
+        "Thu",
+        "Fri",
+        "Sat"
+      ],
+      "social": [
+        {
           "twitch": "https://www.twitch.tv/nightblue3",
         }, {
           "youtube": "https://www.youtube.com/user/Nightblue3",
@@ -94,9 +329,78 @@
       ]
     }, {
       "id": 1,
-      "name": "HerroCritty",
-      "rank": "challenger",
-      "division": 1,
+      "name": "Terry_Platypus",
+      "rank": "bronze",
+      "division": 4,
+      "icon": 0,
+      "roles": [
+        "top",
+        "mid"
+      ],
+      "about": "I have been playing League since 2013, starting off more casual, eventually gettting more into ranked play. I am looking to get more involved with team play, and learning to play with an actual team.",
+      "details" : [
+        {
+          "timePlayed": "5 Years, 3 Months, Casual"
+        }, {
+          "roles": "support, top, mid"
+        }, {
+          "teamExperience": "Yes",
+        }, {
+          "playstyle": "Aggressive",
+        }
+      ],
+      "availability": [
+        "Sun",
+        "Thu",
+        "Fri",
+        "Sat"
+      ],
+      "social": [
+        {
+          "twitter": "https://twitter.com/Nightbloo",
+        }, {
+          "facebook": "https://www.facebook.com/Nightblue3LoL/",
+        }, {
+          "twitch": "https://www.twitch.tv/nightblue3",
+        }
+      ]
+    }, {
+      "id": 234237,
+      "name": "granted_Nuke",
+      "rank": "platinum",
+      "division": 3,
+      "icon": 0,
+      "roles": [
+        "top",
+        "mid"
+      ],
+      "about": "I have been playing League since 2013, starting off more casual, eventually gettting more into ranked play. I am looking to get more involved with team play, and learning to play with an actual team.",
+      "details" : [
+        {
+          "timePlayed": "5 Years, 3 Months, Casual"
+        }, {
+          "roles": "support, top, mid"
+        }, {
+          "teamExperience": "Yes",
+        }, {
+          "playstyle": "Aggressive",
+        }
+      ],
+      "availability": [
+        "Sun",
+        "Mon",
+        "Tue",
+      ],
+      "social": [
+        {
+          "google": "https://plus.google.com/117890238694501850755"
+        }
+      ]
+    }, {
+      "id": 234231,
+      "name": "mitty_323",
+      "rank": "gold",
+      "division": 3,
       "icon": 0,
       "roles": [
         "jungle",
@@ -117,10 +421,6 @@
         }
       ],
       "availability": [
-        "Sun",
-        "Mon",
-        "Tue",
-        "Wed",
         "Thu",
         "Fri",
         "Sat"
@@ -128,9 +428,76 @@
       "social": [
         {
           "twitter": "https://twitter.com/Nightbloo",
+        }
+      ]
+    }, {
+      "id": 239433,
+      "name": "HerroCritty",
+      "rank": "gold",
+      "division": 5,
+      "icon": 0,
+      "roles": [
+        "support",
+        "top",
+        "mid"
+      ],
+      "about": "I have been playing League since 2013, starting off more casual, eventually gettting more into ranked play. I am looking to get more involved with team play, and learning to play with an actual team.",
+      "details" : [
+        {
+          "timePlayed": "5 Years, 3 Months, Casual"
         }, {
-          "facebook": "https://www.facebook.com/Nightblue3LoL/",
+          "roles": "support, top, mid"
         }, {
+          "teamExperience": "Yes",
+        }, {
+          "playstyle": "Aggressive",
+        }
+      ],
+      "availability": [
+        "Sun",
+        "Fri",
+        "Sat"
+      ],
+      "social": [
+        {
+          "twitter": "https://twitter.com/Nightbloo",
+        }, {
+          "youtube": "https://www.youtube.com/user/Nightblue3",
+        }, {
+          "google": "https://plus.google.com/117890238694501850755"
+        }
+      ]
+    }, {
+      "id": 432872,
+      "name": "meat_mr_meet",
+      "rank": "silver",
+      "division": 4,
+      "icon": 0,
+      "roles": [
+        "mid",
+        "bot",
+        "jungle"
+      ],
+      "about": "I have been playing League since 2013, starting off more casual, eventually gettting more into ranked play. I am looking to get more involved with team play, and learning to play with an actual team.",
+      "details" : [
+        {
+          "timePlayed": "5 Years, 3 Months, Casual"
+        }, {
+          "roles": "support, top, mid"
+        }, {
+          "teamExperience": "Yes",
+        }, {
+          "playstyle": "Aggressive",
+        }
+      ],
+      "availability": [
+        "Sun",
+        "Mon",
+        "Wed",
+        "Sat"
+      ],
+      "social": [
+        {
           "twitch": "https://www.twitch.tv/nightblue3",
         }, {
           "youtube": "https://www.youtube.com/user/Nightblue3",
@@ -139,14 +506,12 @@
         }
       ]
     }, {
-      "id": 1,
-      "name": "HerroCritty",
-      "rank": "challenger",
-      "division": 1,
+      "id": 234923,
+      "name": "tyler1",
+      "rank": "platinum",
+      "division": 2,
       "icon": 0,
       "roles": [
-        "jungle",
-        "support",
         "top",
         "mid"
       ],
@@ -163,9 +528,6 @@
         }
       ],
       "availability": [
-        "Sun",
-        "Mon",
-        "Tue",
         "Wed",
         "Thu",
         "Fri",
@@ -173,10 +535,6 @@
       ],
       "social": [
         {
-          "twitter": "https://twitter.com/Nightbloo",
-        }, {
-          "facebook": "https://www.facebook.com/Nightblue3LoL/",
-        }, {
           "twitch": "https://www.twitch.tv/nightblue3",
         }, {
           "youtube": "https://www.youtube.com/user/Nightblue3",
@@ -185,9 +543,86 @@
         }
       ]
     }, {
-      "id": 1,
-      "name": "HerroCritty",
-      "rank": "challenger",
+      "id": 3213214,
+      "name": "__Xxxbulletxxc",
+      "rank": "diamond",
+      "division": 3,
+      "icon": 0,
+      "roles": [
+        "jungle",
+        "support",
+        "top",
+        "mid"
+      ],
+      "about": "I have been playing League since 2013, starting off more casual, eventually gettting more into ranked play. I am looking to get more involved with team play, and learning to play with an actual team.",
+      "details" : [
+        {
+          "timePlayed": "5 Years, 3 Months, Casual"
+        }, {
+          "roles": "support, top, mid"
+        }, {
+          "teamExperience": "Yes",
+        }, {
+          "playstyle": "Aggressive",
+        }
+      ],
+      "availability": [
+        "Wed",
+        "Thu",
+        "Fri",
+        "Sat"
+      ],
+      "social": [
+        {
+          "twitter": "https://twitter.com/Nightbloo",
+        }, {
+          "facebook": "https://www.facebook.com/Nightblue3LoL/",
+        }, {
+          "google": "https://plus.google.com/117890238694501850755"
+        }
+      ]
+    }, {
+      "id": 43483928,
+      "name": "black_mambaaa",
+      "rank": "silver",
+      "division": 4,
+      "icon": 0,
+      "roles": [
+        "bot",
+        "jungle",
+        "support",
+        "top",
+        "mid"
+      ],
+      "about": "I have been playing League since 2013, starting off more casual, eventually gettting more into ranked play. I am looking to get more involved with team play, and learning to play with an actual team.",
+      "details" : [
+        {
+          "timePlayed": "5 Years, 3 Months, Casual"
+        }, {
+          "roles": "support, top, mid"
+        }, {
+          "teamExperience": "Yes",
+        }, {
+          "playstyle": "Aggressive",
+        }
+      ],
+      "availability": [
+        "Sun",
+        "Mon",
+        "Wed",
+        "Fri",
+      ],
+      "social": [
+        {
+          "youtube": "https://www.youtube.com/user/Nightblue3",
+        }, {
+          "google": "https://plus.google.com/117890238694501850755"
+        }
+      ]
+    }, {
+      "id": 312412,
+      "name": "theGankerNator",
+      "rank": "Master",
       "division": 1,
       "icon": 0,
       "roles": [
@@ -210,10 +645,7 @@
       ],
       "availability": [
         "Sun",
-        "Mon",
-        "Tue",
         "Wed",
-        "Thu",
         "Fri",
         "Sat"
       ],
@@ -223,6 +655,40 @@
         }, {
           "facebook": "https://www.facebook.com/Nightblue3LoL/",
         }, {
+          "twitch": "https://www.twitch.tv/nightblue3",
+        }
+      ]
+    }, {
+      "id": 489723,
+      "name": "Falcon232",
+      "rank": "platinum",
+      "division": 4,
+      "icon": 0,
+      "roles": [
+        "top",
+        "mid",
+        "bot"
+      ],
+      "about": "I have been playing League since 2013, starting off more casual, eventually gettting more into ranked play. I am looking to get more involved with team play, and learning to play with an actual team.",
+      "details" : [
+        {
+          "timePlayed": "5 Years, 3 Months, Casual"
+        }, {
+          "roles": "support, top, mid"
+        }, {
+          "teamExperience": "Yes",
+        }, {
+          "playstyle": "Aggressive",
+        }
+      ],
+      "availability": [
+        "Tue",
+        "Wed",
+        "Fri",
+        "Sat"
+      ],
+      "social": [
+        {
           "twitch": "https://www.twitch.tv/nightblue3",
         }, {
           "youtube": "https://www.youtube.com/user/Nightblue3",
@@ -231,13 +697,12 @@
         }
       ]
     }, {
-      "id": 1,
-      "name": "HerroCritty",
-      "rank": "challenger",
+      "id": 439233,
+      "name": "Biozardo",
+      "rank": "bronze",
       "division": 1,
       "icon": 0,
       "roles": [
-        "jungle",
         "support",
         "top",
         "mid"
@@ -259,17 +724,10 @@
         "Mon",
         "Tue",
         "Wed",
-        "Thu",
-        "Fri",
-        "Sat"
       ],
       "social": [
         {
           "twitter": "https://twitter.com/Nightbloo",
-        }, {
-          "facebook": "https://www.facebook.com/Nightblue3LoL/",
-        }, {
-          "twitch": "https://www.twitch.tv/nightblue3",
         }, {
           "youtube": "https://www.youtube.com/user/Nightblue3",
         }, {
@@ -277,13 +735,12 @@
         }
       ]
     }, {
-      "id": 1,
-      "name": "HerroCritty",
-      "rank": "challenger",
-      "division": 1,
+      "id": 1312039,
+      "name": "theplaya",
+      "rank": "gold",
+      "division": 3,
       "icon": 0,
       "roles": [
-        "jungle",
         "support",
         "top",
         "mid"
@@ -302,10 +759,7 @@
       ],
       "availability": [
         "Sun",
-        "Mon",
-        "Tue",
         "Wed",
-        "Thu",
         "Fri",
         "Sat"
       ],
@@ -316,654 +770,6 @@
           "facebook": "https://www.facebook.com/Nightblue3LoL/",
         }, {
           "twitch": "https://www.twitch.tv/nightblue3",
-        }, {
-          "youtube": "https://www.youtube.com/user/Nightblue3",
-        }, {
-          "google": "https://plus.google.com/117890238694501850755"
-        }
-      ]
-    }, {
-      "id": 1,
-      "name": "HerroCritty",
-      "rank": "challenger",
-      "division": 1,
-      "icon": 0,
-      "roles": [
-        "jungle",
-        "support",
-        "top",
-        "mid"
-      ],
-      "about": "I have been playing League since 2013, starting off more casual, eventually gettting more into ranked play. I am looking to get more involved with team play, and learning to play with an actual team.",
-      "details" : [
-        {
-          "timePlayed": "5 Years, 3 Months, Casual"
-        }, {
-          "roles": "support, top, mid"
-        }, {
-          "teamExperience": "Yes",
-        }, {
-          "playstyle": "Aggressive",
-        }
-      ],
-      "availability": [
-        "Sun",
-        "Mon",
-        "Tue",
-        "Wed",
-        "Thu",
-        "Fri",
-        "Sat"
-      ],
-      "social": [
-        {
-          "twitter": "https://twitter.com/Nightbloo",
-        }, {
-          "facebook": "https://www.facebook.com/Nightblue3LoL/",
-        }, {
-          "twitch": "https://www.twitch.tv/nightblue3",
-        }, {
-          "youtube": "https://www.youtube.com/user/Nightblue3",
-        }, {
-          "google": "https://plus.google.com/117890238694501850755"
-        }
-      ]
-    }, {
-      "id": 1,
-      "name": "HerroCritty",
-      "rank": "challenger",
-      "division": 1,
-      "icon": 0,
-      "roles": [
-        "jungle",
-        "support",
-        "top",
-        "mid"
-      ],
-      "about": "I have been playing League since 2013, starting off more casual, eventually gettting more into ranked play. I am looking to get more involved with team play, and learning to play with an actual team.",
-      "details" : [
-        {
-          "timePlayed": "5 Years, 3 Months, Casual"
-        }, {
-          "roles": "support, top, mid"
-        }, {
-          "teamExperience": "Yes",
-        }, {
-          "playstyle": "Aggressive",
-        }
-      ],
-      "availability": [
-        "Sun",
-        "Mon",
-        "Tue",
-        "Wed",
-        "Thu",
-        "Fri",
-        "Sat"
-      ],
-      "social": [
-        {
-          "twitter": "https://twitter.com/Nightbloo",
-        }, {
-          "facebook": "https://www.facebook.com/Nightblue3LoL/",
-        }, {
-          "twitch": "https://www.twitch.tv/nightblue3",
-        }, {
-          "youtube": "https://www.youtube.com/user/Nightblue3",
-        }, {
-          "google": "https://plus.google.com/117890238694501850755"
-        }
-      ]
-    }, {
-      "id": 1,
-      "name": "HerroCritty",
-      "rank": "challenger",
-      "division": 1,
-      "icon": 0,
-      "roles": [
-        "jungle",
-        "support",
-        "top",
-        "mid"
-      ],
-      "about": "I have been playing League since 2013, starting off more casual, eventually gettting more into ranked play. I am looking to get more involved with team play, and learning to play with an actual team.",
-      "details" : [
-        {
-          "timePlayed": "5 Years, 3 Months, Casual"
-        }, {
-          "roles": "support, top, mid"
-        }, {
-          "teamExperience": "Yes",
-        }, {
-          "playstyle": "Aggressive",
-        }
-      ],
-      "availability": [
-        "Sun",
-        "Mon",
-        "Tue",
-        "Wed",
-        "Thu",
-        "Fri",
-        "Sat"
-      ],
-      "social": [
-        {
-          "twitter": "https://twitter.com/Nightbloo",
-        }, {
-          "facebook": "https://www.facebook.com/Nightblue3LoL/",
-        }, {
-          "twitch": "https://www.twitch.tv/nightblue3",
-        }, {
-          "youtube": "https://www.youtube.com/user/Nightblue3",
-        }, {
-          "google": "https://plus.google.com/117890238694501850755"
-        }
-      ]
-    }, {
-      "id": 1,
-      "name": "HerroCritty",
-      "rank": "challenger",
-      "division": 1,
-      "icon": 0,
-      "roles": [
-        "jungle",
-        "support",
-        "top",
-        "mid"
-      ],
-      "about": "I have been playing League since 2013, starting off more casual, eventually gettting more into ranked play. I am looking to get more involved with team play, and learning to play with an actual team.",
-      "details" : [
-        {
-          "timePlayed": "5 Years, 3 Months, Casual"
-        }, {
-          "roles": "support, top, mid"
-        }, {
-          "teamExperience": "Yes",
-        }, {
-          "playstyle": "Aggressive",
-        }
-      ],
-      "availability": [
-        "Sun",
-        "Mon",
-        "Tue",
-        "Wed",
-        "Thu",
-        "Fri",
-        "Sat"
-      ],
-      "social": [
-        {
-          "twitter": "https://twitter.com/Nightbloo",
-        }, {
-          "facebook": "https://www.facebook.com/Nightblue3LoL/",
-        }, {
-          "twitch": "https://www.twitch.tv/nightblue3",
-        }, {
-          "youtube": "https://www.youtube.com/user/Nightblue3",
-        }, {
-          "google": "https://plus.google.com/117890238694501850755"
-        }
-      ]
-    }, {
-      "id": 1,
-      "name": "HerroCritty",
-      "rank": "challenger",
-      "division": 1,
-      "icon": 0,
-      "roles": [
-        "jungle",
-        "support",
-        "top",
-        "mid"
-      ],
-      "about": "I have been playing League since 2013, starting off more casual, eventually gettting more into ranked play. I am looking to get more involved with team play, and learning to play with an actual team.",
-      "details" : [
-        {
-          "timePlayed": "5 Years, 3 Months, Casual"
-        }, {
-          "roles": "support, top, mid"
-        }, {
-          "teamExperience": "Yes",
-        }, {
-          "playstyle": "Aggressive",
-        }
-      ],
-      "availability": [
-        "Sun",
-        "Mon",
-        "Tue",
-        "Wed",
-        "Thu",
-        "Fri",
-        "Sat"
-      ],
-      "social": [
-        {
-          "twitter": "https://twitter.com/Nightbloo",
-        }, {
-          "facebook": "https://www.facebook.com/Nightblue3LoL/",
-        }, {
-          "twitch": "https://www.twitch.tv/nightblue3",
-        }, {
-          "youtube": "https://www.youtube.com/user/Nightblue3",
-        }, {
-          "google": "https://plus.google.com/117890238694501850755"
-        }
-      ]
-    }, {
-      "id": 1,
-      "name": "HerroCritty",
-      "rank": "challenger",
-      "division": 1,
-      "icon": 0,
-      "roles": [
-        "jungle",
-        "support",
-        "top",
-        "mid"
-      ],
-      "about": "I have been playing League since 2013, starting off more casual, eventually gettting more into ranked play. I am looking to get more involved with team play, and learning to play with an actual team.",
-      "details" : [
-        {
-          "timePlayed": "5 Years, 3 Months, Casual"
-        }, {
-          "roles": "support, top, mid"
-        }, {
-          "teamExperience": "Yes",
-        }, {
-          "playstyle": "Aggressive",
-        }
-      ],
-      "availability": [
-        "Sun",
-        "Mon",
-        "Tue",
-        "Wed",
-        "Thu",
-        "Fri",
-        "Sat"
-      ],
-      "social": [
-        {
-          "twitter": "https://twitter.com/Nightbloo",
-        }, {
-          "facebook": "https://www.facebook.com/Nightblue3LoL/",
-        }, {
-          "twitch": "https://www.twitch.tv/nightblue3",
-        }, {
-          "youtube": "https://www.youtube.com/user/Nightblue3",
-        }, {
-          "google": "https://plus.google.com/117890238694501850755"
-        }
-      ]
-    }, {
-      "id": 1,
-      "name": "HerroCritty",
-      "rank": "challenger",
-      "division": 1,
-      "icon": 0,
-      "roles": [
-        "jungle",
-        "support",
-        "top",
-        "mid"
-      ],
-      "about": "I have been playing League since 2013, starting off more casual, eventually gettting more into ranked play. I am looking to get more involved with team play, and learning to play with an actual team.",
-      "details" : [
-        {
-          "timePlayed": "5 Years, 3 Months, Casual"
-        }, {
-          "roles": "support, top, mid"
-        }, {
-          "teamExperience": "Yes",
-        }, {
-          "playstyle": "Aggressive",
-        }
-      ],
-      "availability": [
-        "Sun",
-        "Mon",
-        "Tue",
-        "Wed",
-        "Thu",
-        "Fri",
-        "Sat"
-      ],
-      "social": [
-        {
-          "twitter": "https://twitter.com/Nightbloo",
-        }, {
-          "facebook": "https://www.facebook.com/Nightblue3LoL/",
-        }, {
-          "twitch": "https://www.twitch.tv/nightblue3",
-        }, {
-          "youtube": "https://www.youtube.com/user/Nightblue3",
-        }, {
-          "google": "https://plus.google.com/117890238694501850755"
-        }
-      ]
-    }, {
-      "id": 1,
-      "name": "HerroCritty",
-      "rank": "challenger",
-      "division": 1,
-      "icon": 0,
-      "roles": [
-        "jungle",
-        "support",
-        "top",
-        "mid"
-      ],
-      "about": "I have been playing League since 2013, starting off more casual, eventually gettting more into ranked play. I am looking to get more involved with team play, and learning to play with an actual team.",
-      "details" : [
-        {
-          "timePlayed": "5 Years, 3 Months, Casual"
-        }, {
-          "roles": "support, top, mid"
-        }, {
-          "teamExperience": "Yes",
-        }, {
-          "playstyle": "Aggressive",
-        }
-      ],
-      "availability": [
-        "Sun",
-        "Mon",
-        "Tue",
-        "Wed",
-        "Thu",
-        "Fri",
-        "Sat"
-      ],
-      "social": [
-        {
-          "twitter": "https://twitter.com/Nightbloo",
-        }, {
-          "facebook": "https://www.facebook.com/Nightblue3LoL/",
-        }, {
-          "twitch": "https://www.twitch.tv/nightblue3",
-        }, {
-          "youtube": "https://www.youtube.com/user/Nightblue3",
-        }, {
-          "google": "https://plus.google.com/117890238694501850755"
-        }
-      ]
-    }, {
-      "id": 1,
-      "name": "HerroCritty",
-      "rank": "challenger",
-      "division": 1,
-      "icon": 0,
-      "roles": [
-        "jungle",
-        "support",
-        "top",
-        "mid"
-      ],
-      "about": "I have been playing League since 2013, starting off more casual, eventually gettting more into ranked play. I am looking to get more involved with team play, and learning to play with an actual team.",
-      "details" : [
-        {
-          "timePlayed": "5 Years, 3 Months, Casual"
-        }, {
-          "roles": "support, top, mid"
-        }, {
-          "teamExperience": "Yes",
-        }, {
-          "playstyle": "Aggressive",
-        }
-      ],
-      "availability": [
-        "Sun",
-        "Mon",
-        "Tue",
-        "Wed",
-        "Thu",
-        "Fri",
-        "Sat"
-      ],
-      "social": [
-        {
-          "twitter": "https://twitter.com/Nightbloo",
-        }, {
-          "facebook": "https://www.facebook.com/Nightblue3LoL/",
-        }, {
-          "twitch": "https://www.twitch.tv/nightblue3",
-        }, {
-          "youtube": "https://www.youtube.com/user/Nightblue3",
-        }, {
-          "google": "https://plus.google.com/117890238694501850755"
-        }
-      ]
-    }, {
-      "id": 1,
-      "name": "HerroCritty",
-      "rank": "challenger",
-      "division": 1,
-      "icon": 0,
-      "roles": [
-        "jungle",
-        "support",
-        "top",
-        "mid"
-      ],
-      "about": "I have been playing League since 2013, starting off more casual, eventually gettting more into ranked play. I am looking to get more involved with team play, and learning to play with an actual team.",
-      "details" : [
-        {
-          "timePlayed": "5 Years, 3 Months, Casual"
-        }, {
-          "roles": "support, top, mid"
-        }, {
-          "teamExperience": "Yes",
-        }, {
-          "playstyle": "Aggressive",
-        }
-      ],
-      "availability": [
-        "Sun",
-        "Mon",
-        "Tue",
-        "Wed",
-        "Thu",
-        "Fri",
-        "Sat"
-      ],
-      "social": [
-        {
-          "twitter": "https://twitter.com/Nightbloo",
-        }, {
-          "facebook": "https://www.facebook.com/Nightblue3LoL/",
-        }, {
-          "twitch": "https://www.twitch.tv/nightblue3",
-        }, {
-          "youtube": "https://www.youtube.com/user/Nightblue3",
-        }, {
-          "google": "https://plus.google.com/117890238694501850755"
-        }
-      ]
-    }, {
-      "id": 1,
-      "name": "HerroCritty",
-      "rank": "challenger",
-      "division": 1,
-      "icon": 0,
-      "roles": [
-        "jungle",
-        "support",
-        "top",
-        "mid"
-      ],
-      "about": "I have been playing League since 2013, starting off more casual, eventually gettting more into ranked play. I am looking to get more involved with team play, and learning to play with an actual team.",
-      "details" : [
-        {
-          "timePlayed": "5 Years, 3 Months, Casual"
-        }, {
-          "roles": "support, top, mid"
-        }, {
-          "teamExperience": "Yes",
-        }, {
-          "playstyle": "Aggressive",
-        }
-      ],
-      "availability": [
-        "Sun",
-        "Mon",
-        "Tue",
-        "Wed",
-        "Thu",
-        "Fri",
-        "Sat"
-      ],
-      "social": [
-        {
-          "twitter": "https://twitter.com/Nightbloo",
-        }, {
-          "facebook": "https://www.facebook.com/Nightblue3LoL/",
-        }, {
-          "twitch": "https://www.twitch.tv/nightblue3",
-        }, {
-          "youtube": "https://www.youtube.com/user/Nightblue3",
-        }, {
-          "google": "https://plus.google.com/117890238694501850755"
-        }
-      ]
-    }, {
-      "id": 1,
-      "name": "HerroCritty",
-      "rank": "challenger",
-      "division": 1,
-      "icon": 0,
-      "roles": [
-        "jungle",
-        "support",
-        "top",
-        "mid"
-      ],
-      "about": "I have been playing League since 2013, starting off more casual, eventually gettting more into ranked play. I am looking to get more involved with team play, and learning to play with an actual team.",
-      "details" : [
-        {
-          "timePlayed": "5 Years, 3 Months, Casual"
-        }, {
-          "roles": "support, top, mid"
-        }, {
-          "teamExperience": "Yes",
-        }, {
-          "playstyle": "Aggressive",
-        }
-      ],
-      "availability": [
-        "Sun",
-        "Mon",
-        "Tue",
-        "Wed",
-        "Thu",
-        "Fri",
-        "Sat"
-      ],
-      "social": [
-        {
-          "twitter": "https://twitter.com/Nightbloo",
-        }, {
-          "facebook": "https://www.facebook.com/Nightblue3LoL/",
-        }, {
-          "twitch": "https://www.twitch.tv/nightblue3",
-        }, {
-          "youtube": "https://www.youtube.com/user/Nightblue3",
-        }, {
-          "google": "https://plus.google.com/117890238694501850755"
-        }
-      ]
-    }, {
-      "id": 1,
-      "name": "HerroCritty",
-      "rank": "challenger",
-      "division": 1,
-      "icon": 0,
-      "roles": [
-        "jungle",
-        "support",
-        "top",
-        "mid"
-      ],
-      "about": "I have been playing League since 2013, starting off more casual, eventually gettting more into ranked play. I am looking to get more involved with team play, and learning to play with an actual team.",
-      "details" : [
-        {
-          "timePlayed": "5 Years, 3 Months, Casual"
-        }, {
-          "roles": "support, top, mid"
-        }, {
-          "teamExperience": "Yes",
-        }, {
-          "playstyle": "Aggressive",
-        }
-      ],
-      "availability": [
-        "Sun",
-        "Mon",
-        "Tue",
-        "Wed",
-        "Thu",
-        "Fri",
-        "Sat"
-      ],
-      "social": [
-        {
-          "twitter": "https://twitter.com/Nightbloo",
-        }, {
-          "facebook": "https://www.facebook.com/Nightblue3LoL/",
-        }, {
-          "twitch": "https://www.twitch.tv/nightblue3",
-        }, {
-          "youtube": "https://www.youtube.com/user/Nightblue3",
-        }, {
-          "google": "https://plus.google.com/117890238694501850755"
-        }
-      ]
-    }, {
-      "id": 1,
-      "name": "HerroCritty",
-      "rank": "challenger",
-      "division": 1,
-      "icon": 0,
-      "roles": [
-        "jungle",
-        "support",
-        "top",
-        "mid"
-      ],
-      "about": "I have been playing League since 2013, starting off more casual, eventually gettting more into ranked play. I am looking to get more involved with team play, and learning to play with an actual team.",
-      "details" : [
-        {
-          "timePlayed": "5 Years, 3 Months, Casual"
-        }, {
-          "roles": "support, top, mid"
-        }, {
-          "teamExperience": "Yes",
-        }, {
-          "playstyle": "Aggressive",
-        }
-      ],
-      "availability": [
-        "Sun",
-        "Mon",
-        "Tue",
-        "Wed",
-        "Thu",
-        "Fri",
-        "Sat"
-      ],
-      "social": [
-        {
-          "twitter": "https://twitter.com/Nightbloo",
-        }, {
-          "facebook": "https://www.facebook.com/Nightblue3LoL/",
-        }, {
-          "twitch": "https://www.twitch.tv/nightblue3",
-        }, {
-          "youtube": "https://www.youtube.com/user/Nightblue3",
-        }, {
-          "google": "https://plus.google.com/117890238694501850755"
         }
       ]
     },
