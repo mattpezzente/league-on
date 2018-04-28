@@ -1,10 +1,6 @@
 # League.On
 
-<img src="./img-recruit.png" width="200">
-
-<img src="./img-profile.png" width="200">
-
-<img src="./img-modal.png" width="200">
+<img src="./git-readme-img.png">
 
 League.On is a platform for players that are serious about joining a League of Legends esports team. The application gives coaches, managers, and players a structure for how they operate.
 
