@@ -8,7 +8,6 @@ export default panelStyles = createStyles({
   container: {
     padding: 10,
     width: dimensions.fullWidth,
-
     backgroundColor: '#1D1D1D'
   },
   containerFull: {
@@ -247,4 +246,8 @@ export default panelStyles = createStyles({
     height: dimensions.fullHeight,
     width: dimensions.fullWidth
   },
+  formModalContainer: {
+    backgroundColor: 'white',
+    padding: 10,
+  }
 })

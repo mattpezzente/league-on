@@ -1,6 +1,7 @@
 import React from 'react';
 import { Text, View, Image, TouchableHighlight, Modal } from 'react-native';
 import style from '../styles/main.js'
+import { SimpleLineIcons } from '@expo/vector-icons';
 // Redux
 import { connect } from 'react-redux'
 import {showRecruitModal} from '../redux/actions'
@@ -30,7 +31,7 @@ class ActionBarProfile extends React.Component {
             <View style={style.recruitModal}>
               <RecruitForm player={this.props.player}/>
               <TouchableHighlight onPress={() => {this.setRecruitModalVisible(this.props.modalVisible)}}>
-                <Text style={style.textMD}>Hide Modal</Text>
+                <Text style={style.textMD}>Send <SimpleLineIcons name="arrow-right-circle"/></Text>
               </TouchableHighlight>
             </View>
           </Modal>

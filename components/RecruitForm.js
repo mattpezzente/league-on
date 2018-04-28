@@ -2,18 +2,19 @@ import React, { Component } from 'react';
 import { Text, View } from 'react-native';
 import { TextField } from 'react-native-material-textfield';
 import { Dropdown } from 'react-native-material-dropdown';
+import style from '../styles/main.js'
 
 export default class RecruitForm extends Component {
   constructor(props) {
     super(props);
 
-    this.onChangeText = this.onChangeText.bind(this);
+    // this.onChangeText = this.onChangeText.bind(this);
 
-    this.roleRef = this.updateRef.bind(this, 'role');
-    this.monthRef = this.updateRef.bind(this, 'month');
-    this.dayRef = this.updateRef.bind(this, 'day');
-    this.yearRef = this.updateRef.bind(this, 'year');
-    this.teamRef = this.updateRef.bind(this, 'team');
+    // this.roleRef = this.updateRef.bind(this, 'role');
+    // this.monthRef = this.updateRef.bind(this, 'month');
+    // this.dayRef = this.updateRef.bind(this, 'day');
+    // this.yearRef = this.updateRef.bind(this, 'year');
+    // this.teamRef = this.updateRef.bind(this, 'team');
 
     this.state = {
       team: 'Legit Guild Gaming(LGG)',
@@ -24,116 +25,107 @@ export default class RecruitForm extends Component {
     };
   }
 
-  onChangeText(text) {
-    ['name', 'code', 'sample', 'team']
-      .map((name) => ({ name, ref: this[name] }))
-      .filter(({ ref }) => ref && ref.isFocused())
-      .forEach(({ name, ref }) => {
-        this.setState({ [name]: text });
-      });
-  }
+  // onChangeText(text) {
+  //   ['name', 'code', 'sample', 'team']
+  //     .map((name) => ({ name, ref: this[name] }))
+  //     .filter(({ ref }) => ref && ref.isFocused())
+  //     .forEach(({ name, ref }) => {
+  //       this.setState({ [name]: text });
+  //     });
+  // }
 
-  updateRef(name, ref) {
-    this[name] = ref;
-  }
+  // updateRef(name, ref) {
+  //   this[name] = ref;
+  // }
 
   render() {
     let { team, role, month, day, year } = this.state;
 
     return (
-      <View style={styles.screen}>
-        <View style={styles.container}>
+      <View style={style.formModalContainer}>
           <Dropdown
             ref={this.teamRef}
             value={team}
-            onChangeText={this.onChangeText}
             label='Team'
             data={teamData}
           />
 
-          <View style={{ flexDirection: 'row' }}>
-            <View style={{ flex: 1 }}>
-              <Dropdown
-                ref={this.roleRef}
-                value={role}
-                onChangeText={this.onChangeText}
-                label='Role'
-                data={roleData}
-              />
-            </View>
-
-            <View style={{ width: 96, marginLeft: 8 }}>
-              <Dropdown
-                ref={this.monthRef}
-                value={month}
-                onChangeText={this.onChangeText}
-                label='Month'
-                data={monthData}
-                propsExtractor={({ props }, index) => props}
-              />
-            </View>
-
-            <View style={{ width: 96, marginLeft: 8 }}>
-              <Dropdown
-                ref={this.dayRef}
-                value={day}
-                onChangeText={this.onChangeText}
-                label='Day'
-                data={dayData}
-                propsExtractor={({ props }, index) => props}
-              />
-            </View>
-
-            <View style={{ width: 96, marginLeft: 8 }}>
-              <Dropdown
-                ref={this.yearRef}
-                value={year}
-                onChangeText={this.onChangeText}
-                label='Year'
-                data={yearData}
-                propsExtractor={({ props }, index) => props}
-              />
-            </View>
-
+          <View style={style.flexCenter}>
+            <Dropdown
+              containerStyle={{width: 100}}
+              ref={this.roleRef}
+              value={role}
+              label='Role'
+              data={roleData}
+            />
+            <Dropdown
+              containerStyle={{width: 100}}
+              ref={this.monthRef}
+              value={month}
+              label='Month'
+              data={monthData}
+              propsExtractor={({ props }, index) => props}
+            />
+            <Dropdown
+              containerStyle={{width: 100}}
+              ref={this.dayRef}
+              value={day}
+              label='Day'
+              data={dayData}
+              propsExtractor={({ props }, index) => props}
+            />
+            <Dropdown
+              containerStyle={{width: 100}}
+              ref={this.yearRef}
+              value={year}
+              label='Year'
+              data={yearData}
+              propsExtractor={({ props }, index) => props}
+            />
           </View>
-        </View>
+          <TextField
+            value={'sample'}
+            label='Message'
+            multiline={true}
+          />
+
       </View>
     );
   }
 }
 
-const styles = {
-  screen: {
-    width: 350, 
-    padding: 4,
-    paddingTop: 56,
-    backgroundColor: '#E8EAF6',
-  },
+// const styles = {
+//   screen: {
+//     width: 350, 
+//     padding: 4,
+//     paddingTop: 56,
+//     backgroundColor: '#E8EAF6',
+//   },
 
-  container: {
-    marginHorizontal: 4,
-    marginVertical: 8,
-    paddingHorizontal: 8,
-  },
+//   container: {
+//     marginHorizontal: 4,
+//     marginVertical: 8,
+//     paddingHorizontal: 8,
+//   },
 
-  text: {
-    textAlign: 'center',
-  },
+//   text: {
+//     textAlign: 'center',
+//   },
 
-  textContainer: {
-    backgroundColor: 'white',
-    borderRadius: 2,
-    padding: 16,
-    elevation: 1,
-    shadowRadius: 1,
-    shadowOpacity: 0.3,
-    justifyContent: 'center',
-    shadowOffset: {
-      width: 0,
-      height: 1,
-    },
-  },
-};
+//   textContainer: {
+//     backgroundColor: 'white',
+//     borderRadius: 2,
+//     padding: 16,
+//     elevation: 1,
+//     shadowRadius: 1,
+//     shadowOpacity: 0.3,
+//     justifyContent: 'center',
+//     shadowOffset: {
+//       width: 0,
+//       height: 1,
+//     },
+//   },
+// };
 
 const teamData = [
   { value: 'Legit Guild Gaming(LGG)' },
