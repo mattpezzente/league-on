@@ -1,10 +1,10 @@
 # League.On
 
-![Mobile Recruit Page](https://raw.githubusercontent.com/username/projectname/branch/path/to/img.png)
+![Mobile Recruit Page](https://github.com/mattpezzente/league-on/blob/master/img-recruit.png)
 
-![Mobile Profile Page](https://raw.githubusercontent.com/username/projectname/branch/path/to/img.png)
+![Mobile Profile Page](https://github.com/mattpezzente/league-on/blob/master/img-profile.png)
 
-![Mobile Recruit Modal](https://raw.githubusercontent.com/username/projectname/branch/path/to/img.png)
+![Mobile Recruit Modal](https://github.com/mattpezzente/league-on/blob/master/img-modal.png)
 
 League.On is a platform for players that are serious about joining a League of Legends esports team. The application gives coaches, managers, and players a structure for how they operate.
 
