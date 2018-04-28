@@ -1,7 +1,7 @@
 import React from 'react';
 import { Text, View, Image, TouchableHighlight, Modal } from 'react-native';
 import style from '../styles/main.js'
-import { SimpleLineIcons } from '@expo/vector-icons';
+import { SimpleLineIcons, MaterialCommunityIcons } from '@expo/vector-icons';
 // Redux
 import { connect } from 'react-redux'
 import {showRecruitModal} from '../redux/actions'
@@ -29,10 +29,17 @@ class ActionBarProfile extends React.Component {
               alert('Modal has been closed.');
             }}>
             <View style={style.recruitModal}>
-              <RecruitForm player={this.props.player}/>
-              <TouchableHighlight onPress={() => {this.setRecruitModalVisible(this.props.modalVisible)}}>
-                <Text style={style.textMD}>Send <SimpleLineIcons name="arrow-right-circle"/></Text>
-              </TouchableHighlight>
+              <View style={style.formModalContainer}>
+                <RecruitForm player={this.props.player}/>
+                <View style={style.flexCenter}>
+                  <TouchableHighlight onPress={() => {this.setRecruitModalVisible(this.props.modalVisible)}}>
+                    <Text style={style.formModalCloseButton}>Cancel <MaterialCommunityIcons name="close-circle-outline" size={22}/></Text>
+                  </TouchableHighlight>
+                  <TouchableHighlight onPress={() => {this.setRecruitModalVisible(this.props.modalVisible)}}>
+                    <Text style={style.formModalSendButton}>Send <SimpleLineIcons name="arrow-right-circle" size={20}/></Text>
+                  </TouchableHighlight>
+                </View>
+              </View>
             </View>
           </Modal>
           <TouchableHighlight

@@ -339,4 +339,20 @@ export default panelStyles = createStyles({
     paddingRight: 10,
     marginTop: 10,
   },
+  formModalSendButton: {
+    width: 173,
+    padding: 3,
+    textAlign: 'center',
+    color: colors.font,
+    fontSize: 26,
+    backgroundColor: colors.accent,
+  },
+  formModalCloseButton: {
+    width: 173,
+    padding: 3,
+    textAlign: 'center',
+    color: colors.font,
+    fontSize: 26,
+    backgroundColor: 'rgba(160,0,0,1)',
+  },
 })
