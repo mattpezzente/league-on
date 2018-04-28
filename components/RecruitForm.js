@@ -3,6 +3,11 @@ import { Text, View } from 'react-native';
 import { TextField } from 'react-native-material-textfield';
 import { Dropdown } from 'react-native-material-dropdown';
 import style from '../styles/main.js'
+// Custom JS Functions
+import { normalizeText } from '../js/tools.js'
+// Components
+import RankImage from './RankImage'
+import RoleImage from './RoleImage'
 
 export default class RecruitForm extends Component {
   constructor(props) {
@@ -43,46 +48,78 @@ export default class RecruitForm extends Component {
 
     return (
       <View style={style.formModalContainer}>
-          <Dropdown
-            ref={this.teamRef}
-            value={team}
-            label='Team'
-            data={teamData}
-          />
+          <Text style={style.formModalSectionTitle}>For</Text>
+          <Text style={[style.textMD, {textAlign: 'center', fontSize: 24}]}>{this.props.player.name}</Text>
+          <View style={style.formModalPlayerDetailContainer}>
+            <RankImage rank={this.props.player.rank} division={this.props.player.division} />
+            <RoleImage role={this.props.player.roles[0]} />
+              <Text style={style.profileRoleText}>{normalizeText(this.props.player.roles[0])}</Text>
+          </View>
 
-          <View style={style.flexCenter}>
+          <Text style={style.formModalSectionTitle}>To</Text>
+          <View style={style.formModalInputWrapper}>
             <Dropdown
-              containerStyle={{width: 100}}
-              ref={this.roleRef}
-              value={role}
-              label='Role'
-              data={roleData}
-            />
-            <Dropdown
-              containerStyle={{width: 100}}
-              ref={this.monthRef}
-              value={month}
-              label='Month'
-              data={monthData}
-              propsExtractor={({ props }, index) => props}
-            />
-            <Dropdown
-              containerStyle={{width: 100}}
-              ref={this.dayRef}
-              value={day}
-              label='Day'
-              data={dayData}
-              propsExtractor={({ props }, index) => props}
-            />
-            <Dropdown
-              containerStyle={{width: 100}}
-              ref={this.yearRef}
-              value={year}
-              label='Year'
-              data={yearData}
-              propsExtractor={({ props }, index) => props}
+              ref={this.teamRef}
+              value={team}
+              label='Team'
+              baseColor='#ffffff'
+              textColor='#ffffff'
+              labelFontSize={25}
+              containerStyle={style.formModalInputTeam}
+              data={teamData}
             />
           </View>
+
+          <Text style={style.formModalSectionTitle}>Options</Text>
+          <View style={style.formModalInputWrapper}>
+            <View style={style.formModalCol}>
+              <Text style={[style.textMD, {marginBottom: 5}]}>Role:</Text>
+              <Dropdown
+                containerStyle={{width: 100}}
+                ref={this.roleRef}
+                value={role}
+                label='Role'
+                baseColor='#ffffff'
+                textColor='#ffffff'
+                containerStyle={style.formModalInputRole}
+                data={roleData}
+              />
+            </View>
+            <View style={style.formModalCol}>
+              <Text style={[style.textMD, {marginBottom: 5}]}>Start Date:</Text>
+              <Dropdown
+                containerStyle={{width: 100}}
+                ref={this.monthRef}
+                value={month}
+                label='Month'
+                baseColor='#ffffff'
+                textColor='#ffffff'
+                containerStyle={style.formModalInputMonth}
+                data={monthData}
+              />
+              <Dropdown
+                containerStyle={{width: 100}}
+                ref={this.dayRef}
+                value={day}
+                label='Day'
+                baseColor='#ffffff'
+                textColor='#ffffff'
+                containerStyle={style.formModalInputDay}
+                data={dayData}
+              />
+              <Dropdown
+                containerStyle={{width: 100}}
+                ref={this.yearRef}
+                value={year}
+                label='Year'
+                baseColor='#ffffff'
+                textColor='#ffffff'
+                containerStyle={style.formModalInputYear}
+                data={yearData}
+              />
+            </View>
+          </View>
+          <Text style={style.formModalSectionTitle}>Message</Text>
           <TextField
             value={'sample'}
             label='Message'
