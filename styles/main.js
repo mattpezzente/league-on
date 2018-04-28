@@ -262,7 +262,7 @@ export default panelStyles = createStyles({
     padding: 3,
     textAlign: 'center',
     color: colors.font,
-    fontSize: 18,
+    fontSize: 20,
     backgroundColor: colors.accent,
   },
   formModalPlayerDetailContainer: {

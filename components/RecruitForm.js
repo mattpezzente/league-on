@@ -94,11 +94,12 @@ export default class RecruitForm extends Component {
         </View>
         <Text style={style.formModalSectionTitle}>Message</Text>
         <TextField
-          value={'sample'}
+          value={'Message...'}
           label='Message'
           multiline={true}
           baseColor='#ffffff'
           textColor='#ffffff'
+          containerStyle={{padding: 5}}
         />
       </View>
     );
