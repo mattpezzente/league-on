@@ -18,8 +18,8 @@ League.On brings power to the players by giving them tools to find teams that ar
 
 To install and run the application locally, first, make sure you have the following applications installed:
 
-[Expo](https://expo.io/)
-[Xcode](https://developer.apple.com/xcode/)
+* [Expo](https://expo.io/)
+* [Xcode](https://developer.apple.com/xcode/)
 
 Then, run the following terminal commands to install and run:
 
