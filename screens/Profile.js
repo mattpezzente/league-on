@@ -41,7 +41,7 @@ class Profile extends React.Component {
 
     return (
       <ScrollView style={style.containerFull}>
-          <ActionBarProfile />
+          <ActionBarProfile player={this.props.player}/>
           <View>
             <View style={[style.profileSection, style.flexCenter]}>
               <ImageBackground source={playerIcon} style={{width: 100, height: 100}}>

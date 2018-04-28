@@ -28,7 +28,7 @@ class ActionBarProfile extends React.Component {
               alert('Modal has been closed.');
             }}>
             <View style={style.recruitModal}>
-              <RecruitForm />
+              <RecruitForm player={this.props.player}/>
               <TouchableHighlight onPress={() => {this.setRecruitModalVisible(this.props.modalVisible)}}>
                 <Text style={style.textMD}>Hide Modal</Text>
               </TouchableHighlight>

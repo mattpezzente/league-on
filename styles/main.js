@@ -244,7 +244,6 @@ export default panelStyles = createStyles({
     alignItems: 'center',
     justifyContent: 'center',
     backgroundColor: colors.primary,
-    opacity: 0.8,
     height: dimensions.fullHeight,
     width: dimensions.fullWidth
   },

@@ -82,14 +82,14 @@ export const ProfileAvailability = (props) => {
   }
   if (availability[0] == 'Sun') {
     availability[0] = (
-      <View style={style.profileAvailabilityDaysFilled}>
+      <View key={1} style={style.profileAvailabilityDaysFilled}>
         <Text style={style.profileAvailabilityDaysTextFilled}>S</Text>
       </View>
     )
   }
   else {
     availability[0] = (
-      <View style={style.profileAvailabilityDays}>
+      <View key={1} style={style.profileAvailabilityDays}>
         <Text style={style.profileAvailabilityDaysText}>S</Text>
       </View>
     )
@@ -97,14 +97,14 @@ export const ProfileAvailability = (props) => {
 
   if (availability[1] == 'Mon') {
     availability[1] = (
-      <View style={style.profileAvailabilityDaysFilled}>
+      <View key={2} style={style.profileAvailabilityDaysFilled}>
         <Text style={style.profileAvailabilityDaysTextFilled}>M</Text>
       </View>
     )
   }
   else {
     availability[1] = (
-      <View style={style.profileAvailabilityDays}>
+      <View key={2} style={style.profileAvailabilityDays}>
         <Text style={style.profileAvailabilityDaysText}>M</Text>
       </View>
     )
@@ -112,14 +112,14 @@ export const ProfileAvailability = (props) => {
 
   if (availability[2] == 'Tue') {
     availability[2] = (
-      <View style={style.profileAvailabilityDaysFilled}>
+      <View key={3} style={style.profileAvailabilityDaysFilled}>
         <Text style={style.profileAvailabilityDaysTextFilled}>T</Text>
       </View>
     )
   }
   else {
     availability[2] = (
-      <View style={style.profileAvailabilityDays}>
+      <View key={3} style={style.profileAvailabilityDays}>
         <Text style={style.profileAvailabilityDaysText}>T</Text>
       </View>
     )
@@ -127,14 +127,14 @@ export const ProfileAvailability = (props) => {
 
   if (availability[3] == 'Wed') {
     availability[3] = (
-      <View style={style.profileAvailabilityDaysFilled}>
+      <View key={4} style={style.profileAvailabilityDaysFilled}>
         <Text style={style.profileAvailabilityDaysTextFilled}>W</Text>
       </View>
     )
   }
   else {
     availability[3] = (
-      <View style={style.profileAvailabilityDays}>
+      <View key={4} style={style.profileAvailabilityDays}>
         <Text style={style.profileAvailabilityDaysText}>W</Text>
       </View>
     )
@@ -142,14 +142,14 @@ export const ProfileAvailability = (props) => {
 
   if (availability[4] == 'Thu') {
     availability[4] = (
-      <View style={style.profileAvailabilityDaysFilled}>
+      <View key={5} style={style.profileAvailabilityDaysFilled}>
         <Text style={style.profileAvailabilityDaysTextFilled}>T</Text>
       </View>
     )
   }
   else {
     availability[4] = (
-      <View style={style.profileAvailabilityDays}>
+      <View key={5} style={style.profileAvailabilityDays}>
         <Text style={style.profileAvailabilityDaysText}>T</Text>
       </View>
     )
@@ -157,14 +157,14 @@ export const ProfileAvailability = (props) => {
 
   if (availability[5] == 'Fri') {
     availability[5] = (
-      <View style={style.profileAvailabilityDaysFilled}>
+      <View key={6} style={style.profileAvailabilityDaysFilled}>
         <Text style={style.profileAvailabilityDaysTextFilled}>F</Text>
       </View>
     )
   }
   else {
     availability[5] = (
-      <View style={style.profileAvailabilityDays}>
+      <View key={6} style={style.profileAvailabilityDays}>
         <Text style={style.profileAvailabilityDaysText}>F</Text>
       </View>
     )
@@ -172,14 +172,14 @@ export const ProfileAvailability = (props) => {
 
   if (availability[6] == 'Sat') {
     availability[6] = (
-      <View style={style.profileAvailabilityDaysFilled}>
+      <View key={7} style={style.profileAvailabilityDaysFilled}>
         <Text style={style.profileAvailabilityDaysTextFilled}>S</Text>
       </View>
     )
   }
   else {
     availability[6] = (
-      <View style={style.profileAvailabilityDays}>
+      <View key={7} style={style.profileAvailabilityDays}>
         <Text style={style.profileAvailabilityDaysText}>S</Text>
       </View>
     )
